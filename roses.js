@@ -13,26 +13,53 @@ function rm(v, item) {if (v.indexOf(item) > -1) { v.splice(v.indexOf(item), 1); 
 function rm_sample(v) {var item = sample(v); rm(v, item); return item;}
 var startTime;
 
-//counterbalance?
-var targetItem = sample([
-  "This shop sells flowers and roses."
-  , "This shop sells flowers and daffodils."
-  , "This shop sells roses and flowers."
-  , "This shop sells daffodils and flowers."
-  , "This shop sells roses and other flowers."
-  , "This shop sells daffodils and other flowers."
-]);
+var Target = function(common, uncommon, superset, beginning, end) {
+  this.common = common;
+  this.uncommon = uncommon;
+  this.superset = superset;
+  this.beginning = beginning;
+  this.end = end;
+  this.sentence = function(version) {
+    switch(version) {
+      case 0:
+        return this.beginning + " " + this.superset + " and " + this.common + this.end;
+        break;
+      case 1:
+        return this.beginning + " " + this.superset + " and " + this.uncommon + this.end;
+        break;
+      case 2:
+        return this.beginning + " " + this.common + " and " + this.superset + this.end;
+        break;
+      case 3:
+        return this.beginning + " " + this.uncommon + " and " + this.superset + this.end;
+        break;
+      case 4:
+        return this.beginning + " " + this.common + " and other " + this.superset + this.end;
+        break;
+      case 5:
+        return this.beginning + " " + this.uncommon + " and other " + this.superset + this.end;
+        break;
+      default:
+        console.log("ERROR 8: THAT'S NOT A VERSION I KNOW ABOUT!!!");
+    }
+  }
+}
 
-var fillerItem = "Jill and Tom met at a coffee shop for their first date.";
+var qTypes = shuffle([0,1,2,3,4,5,-1,-1,-1,-1,-1,-1]); //-1 means filler
+var fillers = [ "a filler sentence"
+  , "a filler sentence"
+  , "a filler sentence"
+  , "a filler sentence"
+  , "a filler sentence"
+  , "a filler sentence"]
+var targets = [ new Target("roses", "daffodils", "flowers", "This shop sells", ".")
+  , new Target("biologists", "paleontologists", "scientists", "The advisory panel included a number of", ".")
+  , new Target("beef", "veal", "meat", "The recipe called for", " to be included in the stew.")
+  , new Target("Oaks", "Spruces", "trees", "", " lined the path through the forest.")
+  , new Target("anesthesiologists", "surgeons", "doctors", "At the conference there was a special informational session for", ".")
+  , new Target("horse", "waterfowl", "animal", "Lilly ran a ", " rescue operation in the small town.") ]
 
-var practiceItems = shuffle([
-  {text:"Sally put her daugher to bed at eight o'clock pm.", rating:"high"}
-  , {text:"Pat took out of the closet a stick of mud.", rating:"medium"}
-  , {text:"Bill thought his youngest sister Sally a novel.", rating:"low"}
-]);
-
-var qTypes = ["practice", "practice", "practice", "noMorePractice"].concat(shuffle(["target", "filler"]));
-var nQs = qTypes.length;
+nQs = 12;
 
 $(document).ready(function() {
   showSlide("consent");
@@ -55,131 +82,62 @@ var experiment = {
   },
   
   trial: function(qNumber) {
-    var trialType = qTypes[qNumber];
     $('.bar').css('width', ( (qNumber / nQs)*100 + "%"));
     $(".err").hide();
 
-    if (trialType == "noMorePractice") {
-      //warn people this is the real thing
-      $("#practiceHeader").html("PRACTICE IS OVER");
-      $("#trialInstructions").html("The practice session is over now. PLEASE CHOOSE YOUR RESPONSE CAREFULLY. Click CONTINUE to move on to the real thing.");
-      $("#sliderTable").hide();
-      $("#sentence").hide();
-      $(".continue").click(function() {
+    var trialType = qTypes.shift();
+    var trialStart = Date.now();
+    var trialData = {response:[], rt:[], qNumber:qNumber, trialType:trialType};
+
+    $("#trialInstructions").html("How acceptable do you think the following sentence is?");
+
+    var sentence;
+    console.log(trialType);
+    if (trialType == -1) {
+      sentence = fillers.shift();
+    } else {
+      var target = targets.shift();
+      sentence = target.sentence(trialType);
+    }
+    $("#sentence").html(sentence);
+
+    showSlide("trial");
+    var responseNeeded = true;
+
+    $("#sliderContainer").html('<div id="responseSlider"></div>');
+    $("#responseSlider").slider({
+               animate: true,
+               max: 1 , min: 0, step: .01, value: 0.5,
+               slide: function( event, ui ) {
+                   $("#responseSlider .ui-slider-handle").css({
+                      "background":"#E0F5FF",
+                      "border-color": "#001F29"
+                   });
+               },
+               change: function( event, ui ) {
+                   $("#responseSlider").css({"background":"#99D6EB"});
+                   $("#responseSlider .ui-slider-handle").css({
+                     "background":"#667D94",
+                     "border-color": "#001F29" });
+                   responseNeeded = false;
+                   trialData["response"].push(ui.value);
+                   trialData["rt"].push(Date.now() - trialStart);
+               }});
+
+    $(".continue").click(function() {
+      if (responseNeeded) {
+        $(".err").show();
+      } else {
         $(".continue").unbind("click");
-        $("#sliderTable").show();
-        $("#sentence").show();
+        $(".err").hide();
+        experiment.data["trials"].push(trialData);
         if (qNumber + 1 < nQs) {
-          experiment.trial(qNumber + 1);
+          experiment.trial(qNumber+1);
         } else {
           experiment.questionaire();
         }
-      })
-    } else {
-      var trialStart = Date.now();
-      var trialData = {response:[], rt:[], qNumber:qNumber, trialType:trialType};
-
-      $("#trialInstructions").html("How acceptable do you think the following sentence is?");
-      if (trialType == "practice") {
-        $("#practiceHeader").show();
-        $("#sentence").html(practiceItems[qNumber].text);
-        trialData["item"] = practiceItems[qNumber].text;
-        trialData["suggestedRating"] = practiceItems[qNumber].rating;
-      } else {
-        $("#practiceHeader").hide();
-        if (trialType == "filler") {
-          $("#sentence").html(fillerItem);
-          trialData["item"] = fillerItem;
-        } else {
-          $("#sentence").html(targetItem);
-          trialData["item"] = targetItem;
-        }
       }
-
-      showSlide("trial");
-      var responseNeeded = true;
-
-      $("#sliderContainer").html('<div id="acceptabilitySlider"></div>');
-      $("#acceptabilitySlider").slider({
-                 animate: true,
-                 max: 1 , min: 0, step: .01, value: 0.5,
-                 slide: function( event, ui ) {
-                     $("#acceptabilitySlider .ui-slider-handle").css({
-                        "background":"#E0F5FF",
-                        "border-color": "#001F29"
-                     });
-                 },
-                 change: function( event, ui ) {
-                     $("#acceptabilitySlider").css({"background":"#99D6EB"});
-                     $("#acceptabilitySlider .ui-slider-handle").css({
-                       "background":"#667D94",
-                       "border-color": "#001F29" });
-                     responseNeeded = false;
-                     trialData["response"].push(ui.value);
-                     trialData["rt"].push(Date.now() - trialStart);
-                     console.log(trialData["response"]);
-                 }});
-
-      $(".continue").click(function() {
-        if (responseNeeded) {
-          $(".err").show();
-        } else {
-          $(".continue").unbind("click");
-          $(".err").hide();
-          experiment.data["trials"].push(trialData);
-          $("#sliderTable").hide();
-          $("#feedback").show();
-          if (trialType == "practice") {
-            var value = trialData["response"].last();
-            var rating = value < 0.3333 ? "low" : value > 0.6666 ? "high" : "medium";
-            var feedback;
-            if (rating == practiceItems[qNumber].rating) {
-              feedback = "CORRECT! This sentence should be rated in the " + rating.toUpperCase() + " acceptability range. Please click CONTINUE again for the next question.";
-              trialData["isCorrect"] = true;
-              $(".continue").click(function() {
-                $(".continue").unbind("click");
-                $("#sliderTable").show();
-                $("#feedback").hide();
-                $(".continue").show();
-                if (qNumber + 1 < nQs) {
-                  experiment.trial(qNumber+1);
-                } else {
-                  experiment.questionaire();
-                }
-              });
-            } else {
-              feedback = "INCORRECT! Please click CONTINUE to try again.";
-              trialData["isCorrect"] = false;
-              $(".continue").click(function() {
-                $(".continue").unbind("click");
-                $("#sliderTable").show();
-                $("#feedback").hide();
-                $(".continue").show();
-                if (qNumber + 1 < nQs) {
-                  experiment.trial(qNumber);
-                } else {
-                  experiment.questionaire();
-                }
-              });
-            }
-          } else {
-            $(".continue").click(function() {
-              $(".continue").unbind("click");
-              $("#sliderTable").show();
-              $("#feedback").hide();
-              $(".continue").show();
-              if (qNumber + 1 < nQs) {
-                experiment.trial(qNumber+1);
-              } else {
-                experiment.questionaire();
-              }
-            });
-            feedback = "Thanks! Click CONTINUE again for the next question.";
-          }
-          $("#feedback").html(feedback);
-        }
-      })
-    }
+    })
   },
   
   questionaire: function() {

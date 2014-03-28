@@ -24,7 +24,7 @@
   <br>
   <!-- <p id='logo-text'>Stanford Language and Cognition Lab</p> -->
   <p class="block-text">In this experiment, you will judge the accepatbility of some sentences.</p>
-  <p class="block-text">This experiment should take about 1 minute to complete.</b></p> 
+  <p class="block-text">This experiment should take a couple minutes to complete.</b></p> 
   <button type="button" onClick="this.blur(); experiment.instructions()">Start
   </button>
   <p class="block-text">(Note: you won't be able to preview this HIT before
@@ -47,24 +47,28 @@
 <div class="slide" id="instructions">
   <h2>Instructions</h2>
   <p>In this experiment, we would like you to judge the acceptability of some sentences. We would like you to base your judgement on how natural the sentence is, both in the <b>content</b> and in the <b>phrasing</b>.</p>
-  <p>We will give you some practice questions first, so you can get an idea of how we would like you to use this scale.</p>
+  <p>Here are some examples for how to use this scale:</p>
+  <img src="high.png" border="1"></img>
+  <br/>
+  <img src="medium.png" border="1"></img>
+  <br/>
+  <img src="low.png" border="1"></img>
+  <br/>
   <p>Please click "Begin" when you're ready to start.</p>
   <button type="button" id="begin" value="Begin">
   Begin</button>
 </div>
 
 <div class="slide" id="trial">
-  <p><b id="practiceHeader">PRACTICE</b></p>
-  <div id="trialInstructions"></div>
+  <div>Please rate now natural you think the following sentence is.</div>
   <h3 id="sentence"></h3>
-  <p id="feedback"></p>
   <table id="sliderTable" align="center" width="500"><tbody>
     <tr>
       <td colspan="3" align="center" id="sliderContainer"></td></tr>
     <tr>
-      <td align="left">low acceptability</td>
-      <td align="center">medium acceptability</td>
-      <td align="right">high acceptability</td>
+      <td align="left">not natural</td>
+      <td align="center"></td>
+      <td align="right">very natural</td>
     </tr>
   </tbody></table>
   <button type="button" class="continue">Continue</button>
