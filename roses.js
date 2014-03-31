@@ -35,7 +35,7 @@ var Target = function(frequent, infrequent, superset, beginning, end, article) {
       a = this.superset;
       b = frequency == "frequent" ? this.frequent : this.infrequent;
     }
-    if (this.beginning == "" && this.article == "") {
+    if (this.beginning == "") {
       a = caps(a);
     }
     return this.beginning + this.article(a) + a + conjunction + b + this.end;
