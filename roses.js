@@ -35,6 +35,9 @@ var Target = function(frequent, infrequent, superset, beginning, end, article) {
       a = this.superset;
       b = frequency == "frequent" ? this.frequent : this.infrequent;
     }
+    if (this.beginning == "" && this.article == "") {
+      a = caps(a);
+    }
     return this.beginning + this.article(a) + a + conjunction + b + this.end;
   }
 }
@@ -66,7 +69,7 @@ var fillers = [ "Pat telephoned the sister of Sally’s friend yesterday."
 var targets = [ new Target("roses", "daffodils", "flowers", "This shop sells ", ".")
   , new Target("biologists", "paleontologists", "scientists", "The advisory panel included a number of ", ".")
   , new Target("beef", "veal", "meat", "The recipe called for ", " to be included in the stew.")
-  , new Target("Oaks", "Spruces", "trees", "", " lined the path through the forest.")
+  , new Target("oaks", "spruces", "trees", "", " lined the path through the forest.")
   , new Target("surgeons", "anesthesiologists", "doctors", "At the conference there was a special informational session for ", ".")
   , new Target("horse", "waterfowl", "animal", "Lilly ran ", " rescue operation in the small town.", function(nextWord) {
     if (nextWord == "animal") {
