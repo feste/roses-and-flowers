@@ -13,51 +13,68 @@ function rm(v, item) {if (v.indexOf(item) > -1) { v.splice(v.indexOf(item), 1); 
 function rm_sample(v) {var item = sample(v); rm(v, item); return item;}
 var startTime;
 
-var Target = function(common, uncommon, superset, beginning, end) {
-  this.common = common;
-  this.uncommon = uncommon;
+var Target = function(frequent, infrequent, superset, beginning, end, article) {
+  this.frequent = frequent;
+  this.infrequent = infrequent;
   this.superset = superset;
   this.beginning = beginning;
   this.end = end;
+  this.article = article == null ? function() {return "";} : article;
+
   this.sentence = function(version) {
-    switch(version) {
-      case 0:
-        return this.beginning + " " + this.superset + " and " + this.common + this.end;
-        break;
-      case 1:
-        return this.beginning + " " + this.superset + " and " + this.uncommon + this.end;
-        break;
-      case 2:
-        return this.beginning + " " + this.common + " and " + this.superset + this.end;
-        break;
-      case 3:
-        return this.beginning + " " + this.uncommon + " and " + this.superset + this.end;
-        break;
-      case 4:
-        return this.beginning + " " + this.common + " and other " + this.superset + this.end;
-        break;
-      case 5:
-        return this.beginning + " " + this.uncommon + " and other " + this.superset + this.end;
-        break;
-      default:
-        console.log("ERROR 8: THAT'S NOT A VERSION I KNOW ABOUT!!!");
+    var frequency = version.frequency; //frequent or infrequent
+    var hasOther = version.hasOther; //true or false
+    var order = version.order; //subSuper or superSub
+    var conjunction = hasOther ? " and other " : " and ";
+    var a;
+    var b;
+    if (order == "subSuper") {
+      b = this.superset;
+      a = frequency == "frequent" ? this.frequent : this.infrequent;
+    } else {
+      a = this.superset;
+      b = frequency == "frequent" ? this.frequent : this.infrequent;
     }
+    return this.beginning + this.article(a) + a + conjunction + b + this.end;
   }
 }
 
-var qTypes = shuffle([0,1,2,3,4,5,-1,-1,-1,-1,-1,-1]); //-1 means filler
-var fillers = [ "a filler sentence"
-  , "a filler sentence"
-  , "a filler sentence"
-  , "a filler sentence"
-  , "a filler sentence"
-  , "a filler sentence"]
-var targets = [ new Target("roses", "daffodils", "flowers", "This shop sells", ".")
-  , new Target("biologists", "paleontologists", "scientists", "The advisory panel included a number of", ".")
-  , new Target("beef", "veal", "meat", "The recipe called for", " to be included in the stew.")
+var targetTypes = [];
+for (var i=0; i<2; i++) {
+  for (var j=0; j<2; j++) {
+    for (var k=0; k<2; k++) {
+      var frequency = ["frequent","infrequent"][i];
+      var hasOther = [true, false][j];
+      var order = ["subSuper", "superSub"][k];
+      if (!(order == "superSub" && hasOther == true)) {
+        targetTypes.push({
+          frequency:frequency,
+          hasOther:hasOther,
+          order:order
+        })
+      }
+    }
+  }
+}
+var qTypes = shuffle(targetTypes.concat(["filler", "filler", "filler", "filler", "filler", "filler"]));
+var fillers = [ "Pat telephoned the sister of Sally’s friend yesterday."
+  , "The gopher dug a tunnel underneath the fence."
+  , "A math textbook and a spiral notebook were lying on the kitchen table."
+  , "Adam and Charlie liked to play cops and robbers together when they were little."
+  , "Nobody knew the solution to any of the logic puzzles in the book."
+  , "Jill and Tom met at a cafe for their first date."]
+var targets = [ new Target("roses", "daffodils", "flowers", "This shop sells ", ".")
+  , new Target("biologists", "paleontologists", "scientists", "The advisory panel included a number of ", ".")
+  , new Target("beef", "veal", "meat", "The recipe called for ", " to be included in the stew.")
   , new Target("Oaks", "Spruces", "trees", "", " lined the path through the forest.")
-  , new Target("anesthesiologists", "surgeons", "doctors", "At the conference there was a special informational session for", ".")
-  , new Target("horse", "waterfowl", "animal", "Lilly ran a ", " rescue operation in the small town.") ]
+  , new Target("surgeons", "anesthesiologists", "doctors", "At the conference there was a special informational session for ", ".")
+  , new Target("horse", "waterfowl", "animal", "Lilly ran ", " rescue operation in the small town.", function(nextWord) {
+    if (nextWord == "animal") {
+      return "an ";
+    } else {
+      return "a "
+    }
+  }) ]
 
 nQs = 12;
 
@@ -93,10 +110,13 @@ var experiment = {
 
     var sentence;
     console.log(trialType);
-    if (trialType == -1) {
+    if (trialType == "filler") {
       sentence = fillers.shift();
     } else {
       var target = targets.shift();
+      console.log(qNumber);
+      console.log(trialType);
+      console.log(target);
       sentence = target.sentence(trialType);
     }
     $("#sentence").html(sentence);
