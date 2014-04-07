@@ -59,25 +59,30 @@ for (var i=0; i<2; i++) {
     }
   }
 }
-var qTypes = shuffle(targetTypes.concat(["filler0", "filler1", "filler2", "filler3", "filler4", "filler5"]));
+targetTypes = shuffle(targetTypes);
+
+var qTypes = shuffle([
+  "target0", "target1", "target2", "target3", "target4", "target5",
+  "filler0", "filler1", "filler2", "filler3", "filler4", "filler5"
+]);
 var fillers = {"filler0": "Pat telephoned the sister of Sally’s friend yesterday."
   , "filler1": "The gopher dug a tunnel underneath the fence."
   , "filler2": "A math textbook and a spiral notebook were lying on the kitchen table."
   , "filler3": "Adam and Charlie liked to play cops and robbers together when they were little."
   , "filler4": "Nobody knew the solution to any of the logic puzzles in the book."
-  , "filler5": "Jill and Tom met at a cafe for their first date."}
-var targets = shuffle([ new Target("roses", "daffodils", "flowers", "This shop sells ", ".")
-  , new Target("biologists", "paleontologists", "scientists", "The advisory panel included a number of ", ".")
-  , new Target("beef", "veal", "meat", "The recipe called for ", " to be included in the stew.")
-  , new Target("oaks", "spruces", "trees", "", " lined the path through the forest.")
-  , new Target("surgeons", "anesthesiologists", "doctors", "At the conference there was a special informational session for ", ".")
-  , new Target("horse", "waterfowl", "animal", "Lilly ran ", " rescue operation in the small town.", function(nextWord) {
+  , "filler5": "Jill and Tom met at a cafe for their first date."};
+var targets = {"target0": new Target("roses", "daffodils", "flowers", "This shop sells ", ".")
+  , "target1": new Target("biologists", "paleontologists", "scientists", "The advisory panel included a number of ", ".")
+  , "target2": new Target("beef", "veal", "meat", "The recipe called for ", " to be included in the stew.")
+  , "target3": new Target("oaks", "spruces", "trees", "", " lined the path through the forest.")
+  , "target4": new Target("surgeons", "anesthesiologists", "doctors", "At the conference there was a special informational session for ", ".")
+  , "target5": new Target("horse", "waterfowl", "animal", "Lilly ran ", " rescue operation in the small town.", function(nextWord) {
     if (nextWord == "animal") {
       return "an ";
     } else {
       return "a "
     }
-  })]);
+  })};
 
 nQs = 12;
 
@@ -106,23 +111,34 @@ var experiment = {
     $(".err").hide();
 
     var trialType = qTypes.shift();
+
     var trialStart = Date.now();
     var trialData = {response:[], rt:[], qNumber:qNumber, trialType:trialType};
 
     $("#trialInstructions").html("How acceptable do you think the following sentence is?");
 
-    var sentence;
-    console.log(trialType);
+    var viewsentence;
+    if (trialType.slice(0, trialType.length -1) == "filler") {
+      viewsentence = fillers[trialType];
+      target="NA"
+      var superset = "NA"
+    } else {
+      var targetType = targetTypes.shift();
+      var target = targets[trialType];
+      viewsentence = target.sentence(targetType);
+      var superset = target.superset;
+    }
+
+    trialData["sentence"]=viewsentence;
+    trialData["superset"] =superset;
+/*    console.log(trialType);
     if (typeof(trialType) == "string") {
       sentence = fillers[trialType];
     } else {
       var target = targets.shift();
-      console.log(qNumber);
-      console.log(trialType);
-      console.log(target);
       sentence = target.sentence(trialType);
-    }
-    $("#sentence").html(sentence);
+    }*/
+    $("#sentence").html(viewsentence);
 
     showSlide("trial");
     var responseNeeded = true;
