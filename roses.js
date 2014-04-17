@@ -62,15 +62,24 @@ for (var i=0; i<2; i++) {
 targetTypes = shuffle(targetTypes);
 
 var qTypes = shuffle([
-  "target0", "target1", "target2", "target3", "target4", "target5",
+  //"target0", "target1", "target2", "target3", "target4", "target5",
   "filler0", "filler1", "filler2", "filler3", "filler4", "filler5"
 ]);
-var fillers = {"filler0": "Pat telephoned the sister of Sally’s friend yesterday."
+/*var fillers = {"filler0": "Pat telephoned the sister of Sally’s friend yesterday."
   , "filler1": "The gopher dug a tunnel underneath the fence."
   , "filler2": "A math textbook and a spiral notebook were lying on the kitchen table."
   , "filler3": "Adam and Charlie liked to play cops and robbers together when they were little."
   , "filler4": "Nobody knew the solution to any of the logic puzzles in the book."
-  , "filler5": "Jill and Tom met at a cafe for their first date."};
+  , "filler5": "Jill and Tom met at a cafe for their first date."};*/
+var fillers = {
+  "filler0":"Pat took out of the closet a stick of mud.",
+  "filler1":"A phone was unfolded by Bill.",
+  "filler2":"The mother of five plunged into a raucous fray.",
+  "filler3":"Off a cliff sprang the giddy diver.",
+  "filler4":"No person shall drink any beverage or chew noisily during class.",
+  "filler5":"Because the dog growled the robber fled."
+  //"filler5":"Pat telephoned the sister of Sally's friend yesterday.",
+}
 var targets = {"target0": new Target("roses", "daffodils", "flowers", "This shop sells ", ".")
   , "target1": new Target("biologists", "paleontologists", "scientists", "The advisory panel included a number of ", ".")
   , "target2": new Target("beef", "veal", "meat", "The recipe called for ", " to be included in the stew.")
@@ -84,7 +93,7 @@ var targets = {"target0": new Target("roses", "daffodils", "flowers", "This shop
     }
   })};
 
-nQs = 12;
+nQs = qTypes.length;
 
 $(document).ready(function() {
   showSlide("consent");
