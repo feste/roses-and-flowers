@@ -63,7 +63,7 @@ targetTypes = shuffle(targetTypes);
 
 var qTypes = shuffle([
   //"target0", "target1", "target2", "target3", "target4", "target5",
-  "filler0", "filler1", "filler2", "filler3", "filler4", "filler5"
+  "filler0", "filler1", "filler2", "filler3", "filler4", "filler5", "filler6"
 ]);
 /*var fillers = {"filler0": "Pat telephoned the sister of Sally’s friend yesterday."
   , "filler1": "The gopher dug a tunnel underneath the fence."
@@ -78,6 +78,7 @@ var fillers = {
   "filler3":"Off a cliff sprang the giddy diver.",
   "filler4":"No person shall drink any beverage or chew noisily during class.",
   "filler5":"Because the dog growled the robber fled."
+  "filler6":"Alex telephoned the sister of Sally's friend yesterday."
   //"filler5":"Pat telephoned the sister of Sally's friend yesterday.",
 }
 var targets = {"target0": new Target("roses", "daffodils", "flowers", "This shop sells ", ".")
