@@ -1,0 +1,121 @@
+subject	rating	order	frequency	hasOther	rt	qNumber	age	language	comments
+0	1	subSuper	infrequent	False	1904	11	28	english	short and easy
+0	1	subSuper	infrequent	True	1654	11	28	english	short and easy
+0	0.9	superSub	infrequent	False	6632	11	28	english	short and easy
+0	0.98	superSub	frequent	False	4663	11	28	english	short and easy
+0	1	subSuper	frequent	True	6193	11	28	english	short and easy
+0	0.91	subSuper	frequent	False	5903	11	28	english	short and easy
+1	1	subSuper	infrequent	False	1999	11	25	English	
+1	0.7	superSub	infrequent	False	2760	11	25	English	
+1	0.58	superSub	frequent	False	3074	11	25	English	
+1	1	subSuper	infrequent	True	2000	11	25	English	
+1	0.92	subSuper	frequent	False	3433	11	25	English	
+1	0.67	subSuper	frequent	True	4104	11	25	English	
+2	1	subSuper	frequent	True	5236	11	39	English	I thought the inclusion of words likes %22trees and oaks%22 in the sentences were interesting. It took me a second to catch. Oaks are trees so to include trees and Oaks in a sentence is a bit odd. This was actually a fun experiment. I would love to do more!
+2	1	subSuper	frequent	False	4320	11	39	English	I thought the inclusion of words likes %22trees and oaks%22 in the sentences were interesting. It took me a second to catch. Oaks are trees so to include trees and Oaks in a sentence is a bit odd. This was actually a fun experiment. I would love to do more!
+2	0.79	subSuper	infrequent	False	20545	11	39	English	I thought the inclusion of words likes %22trees and oaks%22 in the sentences were interesting. It took me a second to catch. Oaks are trees so to include trees and Oaks in a sentence is a bit odd. This was actually a fun experiment. I would love to do more!
+2	0.5	superSub	frequent	False	4362	11	39	English	I thought the inclusion of words likes %22trees and oaks%22 in the sentences were interesting. It took me a second to catch. Oaks are trees so to include trees and Oaks in a sentence is a bit odd. This was actually a fun experiment. I would love to do more!
+2	1	superSub	infrequent	False	6459	11	39	English	I thought the inclusion of words likes %22trees and oaks%22 in the sentences were interesting. It took me a second to catch. Oaks are trees so to include trees and Oaks in a sentence is a bit odd. This was actually a fun experiment. I would love to do more!
+2	0.5	subSuper	infrequent	True	5890	11	39	English	I thought the inclusion of words likes %22trees and oaks%22 in the sentences were interesting. It took me a second to catch. Oaks are trees so to include trees and Oaks in a sentence is a bit odd. This was actually a fun experiment. I would love to do more!
+3	1	superSub	infrequent	False	2858	10	34	English	
+3	0.67	subSuper	frequent	True	2403	10	34	English	
+3	0.41	subSuper	frequent	False	2570	10	34	English	
+3	0.67	subSuper	infrequent	True	4256	10	34	English	
+3	0.67	subSuper	infrequent	False	4360	10	34	English	
+3	0.29	superSub	frequent	False	4274	10	34	English	
+4	0.93	subSuper	frequent	True	4119	10	28	English	fun hit!
+4	0.96	subSuper	infrequent	False	3358	10	28	English	fun hit!
+4	0.37	superSub	frequent	False	3250	10	28	English	fun hit!
+4	0.31	subSuper	frequent	False	4639	10	28	English	fun hit!
+4	0.85	superSub	infrequent	False	4767	10	28	English	fun hit!
+4	0.5	subSuper	infrequent	True	4260	10	28	English	fun hit!
+5	1	subSuper	infrequent	False	16968	11	33	English	
+5	1	subSuper	infrequent	True	9650	11	33	English	
+5	1	superSub	frequent	False	22535	11	33	English	
+5	0.5	subSuper	frequent	False	7104	11	33	English	
+5	1	superSub	infrequent	False	22727	11	33	English	
+5	0.7	subSuper	frequent	True	34041	11	33	English	
+6	1	subSuper	infrequent	True	3968	10	32	English	Different kind of task, thank you!
+6	1	superSub	frequent	False	3423	10	32	English	Different kind of task, thank you!
+6	0.68	subSuper	frequent	True	5537	10	32	English	Different kind of task, thank you!
+6	0.61	subSuper	frequent	False	9029	10	32	English	Different kind of task, thank you!
+6	0.94	superSub	infrequent	False	8425	10	32	English	Different kind of task, thank you!
+6	0.74	subSuper	infrequent	False	5044	10	32	English	Different kind of task, thank you!
+7	0.81	subSuper	frequent	True	2688	11	27	English	
+7	0.91	subSuper	frequent	False	2529	11	27	English	
+7	0.58	subSuper	infrequent	True	69050	11	27	English	
+7	0.61	superSub	frequent	False	3351	11	27	English	
+7	0.72	superSub	infrequent	False	3937	11	27	English	
+7	0.33	subSuper	infrequent	False	3625	11	27	English	
+8	0.98	superSub	frequent	False	3628	10	48	english	
+8	0.96	subSuper	infrequent	False	3501	10	48	english	
+8	0.86	subSuper	frequent	False	5641	10	48	english	
+8	0.98	subSuper	frequent	True	3282	10	48	english	
+8	0.98	superSub	infrequent	False	5414	10	48	english	
+8	0.82	subSuper	infrequent	True	12674	10	48	english	
+9	1	subSuper	infrequent	True	8878	9	42	english	
+9	1	subSuper	infrequent	False	2946	9	42	english	
+9	0.41	subSuper	frequent	False	4025	9	42	english	
+9	0.49	superSub	infrequent	False	4849	9	42	english	
+9	1	superSub	frequent	False	4997	9	42	english	
+9	0.95	subSuper	frequent	True	14165	9	42	english	
+10	0.85	subSuper	frequent	False	6159	11	40	English	No useful comments, but good luck with your research!
+10	1	subSuper	frequent	True	4333	11	40	English	No useful comments, but good luck with your research!
+10	0.42	subSuper	infrequent	False	19601	11	40	English	No useful comments, but good luck with your research!
+10	0.9	subSuper	infrequent	True	15564	11	40	English	No useful comments, but good luck with your research!
+10	0.73	superSub	frequent	False	10804	11	40	English	No useful comments, but good luck with your research!
+10	0.9	superSub	infrequent	False	18571	11	40	English	No useful comments, but good luck with your research!
+11	0.58	subSuper	frequent	True	4752	11	26	english	interesting
+11	0.79	superSub	frequent	False	5360	11	26	english	interesting
+11	0.33	subSuper	infrequent	True	3889	11	26	english	interesting
+11	0.74	subSuper	frequent	False	2080	11	26	english	interesting
+11	0.6	subSuper	infrequent	False	4520	11	26	english	interesting
+11	0.16	superSub	infrequent	False	6079	11	26	english	interesting
+12	1	subSuper	frequent	True	1564	11	23	English	none
+12	1	superSub	infrequent	False	1776	11	23	English	none
+12	1	superSub	frequent	False	1976	11	23	English	none
+12	0	subSuper	infrequent	False	1614	11	23	English	none
+12	0.47	subSuper	infrequent	True	3660	11	23	English	none
+12	1	subSuper	frequent	False	2799	11	23	English	none
+13	1	subSuper	frequent	True	3658	11	56	English	
+13	0.97	superSub	infrequent	False	9269	11	56	English	
+13	0.08	superSub	frequent	False	9781	11	56	English	
+13	0.09	subSuper	frequent	False	8556	11	56	English	
+13	1	subSuper	infrequent	False	17595	11	56	English	
+13	0.01	subSuper	infrequent	True	8457	11	56	English	
+14	1	subSuper	infrequent	False	2484	11	29	english	
+14	1	subSuper	frequent	True	1929	11	29	english	
+14	1	subSuper	frequent	False	2473	11	29	english	
+14	0.5	superSub	infrequent	False	1903	11	29	english	
+14	0.97	superSub	frequent	False	5680	11	29	english	
+14	0	subSuper	infrequent	True	7232	11	29	english	
+15	1	subSuper	infrequent	True	5793	10	44	English	If you have a more formal upbringing, your sentence structure might be more unnatural than what the majority of other persons think is natural.
+15	1	subSuper	frequent	True	7178	10	44	English	If you have a more formal upbringing, your sentence structure might be more unnatural than what the majority of other persons think is natural.
+15	0.1	subSuper	frequent	False	13636	10	44	English	If you have a more formal upbringing, your sentence structure might be more unnatural than what the majority of other persons think is natural.
+15	0.11	superSub	frequent	False	16504	10	44	English	If you have a more formal upbringing, your sentence structure might be more unnatural than what the majority of other persons think is natural.
+15	1	superSub	infrequent	False	5623	10	44	English	If you have a more formal upbringing, your sentence structure might be more unnatural than what the majority of other persons think is natural.
+15	0.33	subSuper	infrequent	False	9849	10	44	English	If you have a more formal upbringing, your sentence structure might be more unnatural than what the majority of other persons think is natural.
+16	0.5	superSub	infrequent	False	5780	10	31	English	
+16	1	subSuper	frequent	True	3661	10	31	English	
+16	0.49	subSuper	frequent	False	5693	10	31	English	
+16	0.85	subSuper	infrequent	True	4771	10	31	English	
+16	0.5	superSub	frequent	False	4482	10	31	English	
+16	0.86	subSuper	infrequent	False	5585	10	31	English	
+17	0.62	subSuper	frequent	True	2924	11	26	ENGLISH	NONE
+17	0.68	superSub	frequent	False	4085	11	26	ENGLISH	NONE
+17	0.62	subSuper	infrequent	False	6384	11	26	ENGLISH	NONE
+17	0.74	subSuper	frequent	False	1851	11	26	ENGLISH	NONE
+17	0.54	superSub	infrequent	False	3080	11	26	ENGLISH	NONE
+17	0.61	subSuper	infrequent	True	2134	11	26	ENGLISH	NONE
+18	0.74	subSuper	frequent	False	8459	8	59	English	In some places, I thought the word %22other%22 would have been helpful
+18	0.63	subSuper	infrequent	False	8106	8	59	English	In some places, I thought the word %22other%22 would have been helpful
+18	1	subSuper	infrequent	True	4738	8	59	English	In some places, I thought the word %22other%22 would have been helpful
+18	0.9	subSuper	frequent	True	6425	8	59	English	In some places, I thought the word %22other%22 would have been helpful
+18	0.56	superSub	frequent	False	6630	8	59	English	In some places, I thought the word %22other%22 would have been helpful
+18	0.82	superSub	infrequent	False	9509	8	59	English	In some places, I thought the word %22other%22 would have been helpful
+19	1	superSub	frequent	False	6472	11	39	english	
+19	1	subSuper	infrequent	True	6184	11	39	english	
+19	0.23	subSuper	infrequent	False	26863	11	39	english	
+19	0.19	subSuper	frequent	False	6169	11	39	english	
+19	1	subSuper	frequent	True	8951	11	39	english	
+19	0.93	superSub	infrequent	False	16407	11	39	english	
