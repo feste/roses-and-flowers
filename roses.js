@@ -77,7 +77,7 @@ var fillers = {
   "filler2":"The mother of five plunged into a raucous fray.",
   "filler3":"Off a cliff sprang the giddy diver.",
   "filler4":"No person shall drink any beverage or chew noisily during class.",
-  "filler5":"Because the dog growled the robber fled."
+  "filler5":"Because the dog growled the robber fled.",
   "filler6":"Alex telephoned the sister of Sally's friend yesterday."
   //"filler5":"Pat telephoned the sister of Sally's friend yesterday.",
 }
