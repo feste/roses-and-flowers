@@ -1,0 +1,481 @@
+subject	rating	order	frequency	hasOther	filler	item	sentence	rt	qNumber	age	language
+0	1	subSuper	infrequent	False	NA	NA	NA	1904	11	28	english
+0	1	subSuper	infrequent	True	NA	NA	NA	1654	11	28	english
+0	0.9	superSub	infrequent	False	NA	NA	NA	6632	11	28	english
+0	0.98	superSub	frequent	False	NA	NA	NA	4663	11	28	english
+0	1	subSuper	frequent	True	NA	NA	NA	6193	11	28	english
+0	0.91	subSuper	frequent	False	NA	NA	NA	5903	11	28	english
+1	1	subSuper	infrequent	False	NA	NA	NA	1999	11	25	English
+1	0.7	superSub	infrequent	False	NA	NA	NA	2760	11	25	English
+1	0.58	superSub	frequent	False	NA	NA	NA	3074	11	25	English
+1	1	subSuper	infrequent	True	NA	NA	NA	2000	11	25	English
+1	0.92	subSuper	frequent	False	NA	NA	NA	3433	11	25	English
+1	0.67	subSuper	frequent	True	NA	NA	NA	4104	11	25	English
+2	1	subSuper	frequent	True	NA	NA	NA	5236	11	39	English
+2	1	subSuper	frequent	False	NA	NA	NA	4320	11	39	English
+2	0.79	subSuper	infrequent	False	NA	NA	NA	20545	11	39	English
+2	0.5	superSub	frequent	False	NA	NA	NA	4362	11	39	English
+2	1	superSub	infrequent	False	NA	NA	NA	6459	11	39	English
+2	0.5	subSuper	infrequent	True	NA	NA	NA	5890	11	39	English
+3	1	superSub	infrequent	False	NA	NA	NA	2858	10	34	English
+3	0.67	subSuper	frequent	True	NA	NA	NA	2403	10	34	English
+3	0.41	subSuper	frequent	False	NA	NA	NA	2570	10	34	English
+3	0.67	subSuper	infrequent	True	NA	NA	NA	4256	10	34	English
+3	0.67	subSuper	infrequent	False	NA	NA	NA	4360	10	34	English
+3	0.29	superSub	frequent	False	NA	NA	NA	4274	10	34	English
+4	0.93	subSuper	frequent	True	NA	NA	NA	4119	10	28	English
+4	0.96	subSuper	infrequent	False	NA	NA	NA	3358	10	28	English
+4	0.37	superSub	frequent	False	NA	NA	NA	3250	10	28	English
+4	0.31	subSuper	frequent	False	NA	NA	NA	4639	10	28	English
+4	0.85	superSub	infrequent	False	NA	NA	NA	4767	10	28	English
+4	0.5	subSuper	infrequent	True	NA	NA	NA	4260	10	28	English
+5	1	subSuper	infrequent	False	NA	NA	NA	16968	11	33	English
+5	1	subSuper	infrequent	True	NA	NA	NA	9650	11	33	English
+5	1	superSub	frequent	False	NA	NA	NA	22535	11	33	English
+5	0.5	subSuper	frequent	False	NA	NA	NA	7104	11	33	English
+5	1	superSub	infrequent	False	NA	NA	NA	22727	11	33	English
+5	0.7	subSuper	frequent	True	NA	NA	NA	34041	11	33	English
+6	1	subSuper	infrequent	True	NA	NA	NA	3968	10	32	English
+6	1	superSub	frequent	False	NA	NA	NA	3423	10	32	English
+6	0.68	subSuper	frequent	True	NA	NA	NA	5537	10	32	English
+6	0.61	subSuper	frequent	False	NA	NA	NA	9029	10	32	English
+6	0.94	superSub	infrequent	False	NA	NA	NA	8425	10	32	English
+6	0.74	subSuper	infrequent	False	NA	NA	NA	5044	10	32	English
+7	0.81	subSuper	frequent	True	NA	NA	NA	2688	11	27	English
+7	0.91	subSuper	frequent	False	NA	NA	NA	2529	11	27	English
+7	0.58	subSuper	infrequent	True	NA	NA	NA	69050	11	27	English
+7	0.61	superSub	frequent	False	NA	NA	NA	3351	11	27	English
+7	0.72	superSub	infrequent	False	NA	NA	NA	3937	11	27	English
+7	0.33	subSuper	infrequent	False	NA	NA	NA	3625	11	27	English
+8	0.98	superSub	frequent	False	NA	NA	NA	3628	10	48	english
+8	0.96	subSuper	infrequent	False	NA	NA	NA	3501	10	48	english
+8	0.86	subSuper	frequent	False	NA	NA	NA	5641	10	48	english
+8	0.98	subSuper	frequent	True	NA	NA	NA	3282	10	48	english
+8	0.98	superSub	infrequent	False	NA	NA	NA	5414	10	48	english
+8	0.82	subSuper	infrequent	True	NA	NA	NA	12674	10	48	english
+9	1	subSuper	infrequent	True	NA	NA	NA	8878	9	42	english
+9	1	subSuper	infrequent	False	NA	NA	NA	2946	9	42	english
+9	0.41	subSuper	frequent	False	NA	NA	NA	4025	9	42	english
+9	0.49	superSub	infrequent	False	NA	NA	NA	4849	9	42	english
+9	1	superSub	frequent	False	NA	NA	NA	4997	9	42	english
+9	0.95	subSuper	frequent	True	NA	NA	NA	14165	9	42	english
+10	0.85	subSuper	frequent	False	NA	NA	NA	6159	11	40	English
+10	1	subSuper	frequent	True	NA	NA	NA	4333	11	40	English
+10	0.42	subSuper	infrequent	False	NA	NA	NA	19601	11	40	English
+10	0.9	subSuper	infrequent	True	NA	NA	NA	15564	11	40	English
+10	0.73	superSub	frequent	False	NA	NA	NA	10804	11	40	English
+10	0.9	superSub	infrequent	False	NA	NA	NA	18571	11	40	English
+11	0.58	subSuper	frequent	True	NA	NA	NA	4752	11	26	english
+11	0.79	superSub	frequent	False	NA	NA	NA	5360	11	26	english
+11	0.33	subSuper	infrequent	True	NA	NA	NA	3889	11	26	english
+11	0.74	subSuper	frequent	False	NA	NA	NA	2080	11	26	english
+11	0.6	subSuper	infrequent	False	NA	NA	NA	4520	11	26	english
+11	0.16	superSub	infrequent	False	NA	NA	NA	6079	11	26	english
+12	1	subSuper	frequent	True	NA	NA	NA	1564	11	23	English
+12	1	superSub	infrequent	False	NA	NA	NA	1776	11	23	English
+12	1	superSub	frequent	False	NA	NA	NA	1976	11	23	English
+12	0	subSuper	infrequent	False	NA	NA	NA	1614	11	23	English
+12	0.47	subSuper	infrequent	True	NA	NA	NA	3660	11	23	English
+12	1	subSuper	frequent	False	NA	NA	NA	2799	11	23	English
+13	1	subSuper	frequent	True	NA	NA	NA	3658	11	56	English
+13	0.97	superSub	infrequent	False	NA	NA	NA	9269	11	56	English
+13	0.08	superSub	frequent	False	NA	NA	NA	9781	11	56	English
+13	0.09	subSuper	frequent	False	NA	NA	NA	8556	11	56	English
+13	1	subSuper	infrequent	False	NA	NA	NA	17595	11	56	English
+13	0.01	subSuper	infrequent	True	NA	NA	NA	8457	11	56	English
+14	1	subSuper	infrequent	False	NA	NA	NA	2484	11	29	english
+14	1	subSuper	frequent	True	NA	NA	NA	1929	11	29	english
+14	1	subSuper	frequent	False	NA	NA	NA	2473	11	29	english
+14	0.5	superSub	infrequent	False	NA	NA	NA	1903	11	29	english
+14	0.97	superSub	frequent	False	NA	NA	NA	5680	11	29	english
+14	0	subSuper	infrequent	True	NA	NA	NA	7232	11	29	english
+15	1	subSuper	infrequent	True	NA	NA	NA	5793	10	44	English
+15	1	subSuper	frequent	True	NA	NA	NA	7178	10	44	English
+15	0.1	subSuper	frequent	False	NA	NA	NA	13636	10	44	English
+15	0.11	superSub	frequent	False	NA	NA	NA	16504	10	44	English
+15	1	superSub	infrequent	False	NA	NA	NA	5623	10	44	English
+15	0.33	subSuper	infrequent	False	NA	NA	NA	9849	10	44	English
+16	0.5	superSub	infrequent	False	NA	NA	NA	5780	10	31	English
+16	1	subSuper	frequent	True	NA	NA	NA	3661	10	31	English
+16	0.49	subSuper	frequent	False	NA	NA	NA	5693	10	31	English
+16	0.85	subSuper	infrequent	True	NA	NA	NA	4771	10	31	English
+16	0.5	superSub	frequent	False	NA	NA	NA	4482	10	31	English
+16	0.86	subSuper	infrequent	False	NA	NA	NA	5585	10	31	English
+17	0.62	subSuper	frequent	True	NA	NA	NA	2924	11	26	ENGLISH
+17	0.68	superSub	frequent	False	NA	NA	NA	4085	11	26	ENGLISH
+17	0.62	subSuper	infrequent	False	NA	NA	NA	6384	11	26	ENGLISH
+17	0.74	subSuper	frequent	False	NA	NA	NA	1851	11	26	ENGLISH
+17	0.54	superSub	infrequent	False	NA	NA	NA	3080	11	26	ENGLISH
+17	0.61	subSuper	infrequent	True	NA	NA	NA	2134	11	26	ENGLISH
+18	0.74	subSuper	frequent	False	NA	NA	NA	8459	8	59	English
+18	0.63	subSuper	infrequent	False	NA	NA	NA	8106	8	59	English
+18	1	subSuper	infrequent	True	NA	NA	NA	4738	8	59	English
+18	0.9	subSuper	frequent	True	NA	NA	NA	6425	8	59	English
+18	0.56	superSub	frequent	False	NA	NA	NA	6630	8	59	English
+18	0.82	superSub	infrequent	False	NA	NA	NA	9509	8	59	English
+19	1	superSub	frequent	False	NA	NA	NA	6472	11	39	english
+19	1	subSuper	infrequent	True	NA	NA	NA	6184	11	39	english
+19	0.23	subSuper	infrequent	False	NA	NA	NA	26863	11	39	english
+19	0.19	subSuper	frequent	False	NA	NA	NA	6169	11	39	english
+19	1	subSuper	frequent	True	NA	NA	NA	8951	11	39	english
+19	0.93	superSub	infrequent	False	NA	NA	NA	16407	11	39	english
+20	0.99	superSub	frequent	False	NA	NA	NA	3006	11	34	english
+20	0.46	subSuper	frequent	True	NA	NA	NA	4215	11	34	english
+20	0.99	NA	NA	NA	the gopher	NA	NA	4241	11	34	english
+20	0.88	NA	NA	NA	jill and tom	NA	NA	3896	11	34	english
+20	0.64	subSuper	infrequent	False	NA	NA	NA	2798	11	34	english
+20	0.98	NA	NA	NA	math textbook	NA	NA	2633	11	34	english
+20	0.92	NA	NA	NA	adam and charlie	NA	NA	4137	11	34	english
+20	0.44	NA	NA	NA	pat telephoned	NA	NA	2656	11	34	english
+20	0.89	superSub	infrequent	False	NA	NA	NA	4673	11	34	english
+20	0.95	NA	NA	NA	nobody knew	NA	NA	3137	11	34	english
+20	0.97	subSuper	frequent	False	NA	NA	NA	3359	11	34	english
+20	0.97	subSuper	infrequent	True	NA	NA	NA	3168	11	34	english
+21	1	superSub	frequent	False	NA	NA	NA	5556	11	20	English
+21	1	NA	NA	NA	jill and tom	NA	NA	1808	11	20	English
+21	1	NA	NA	NA	nobody knew	NA	NA	2401	11	20	English
+21	1	NA	NA	NA	the gopher	NA	NA	5552	11	20	English
+21	1	superSub	infrequent	False	NA	NA	NA	2556	11	20	English
+21	1	NA	NA	NA	adam and charlie	NA	NA	2737	11	20	English
+21	0.49	NA	NA	NA	pat telephoned	NA	NA	5536	11	20	English
+21	1	subSuper	infrequent	False	NA	NA	NA	3223	11	20	English
+21	0.77	subSuper	frequent	False	NA	NA	NA	4162	11	20	English
+21	1	subSuper	frequent	True	NA	NA	NA	2200	11	20	English
+21	1	NA	NA	NA	math textbook	NA	NA	2784	11	20	English
+21	0.86	subSuper	infrequent	True	NA	NA	NA	3892	11	20	English
+22	0.23	subSuper	infrequent	True	NA	NA	NA	20757	11	48	english
+22	0.65	NA	NA	NA	pat telephoned	NA	NA	23132	11	48	english
+22	0.2	NA	NA	NA	nobody knew	NA	NA	13366	11	48	english
+22	0.95	superSub	infrequent	False	NA	NA	NA	6847	11	48	english
+22	0.91	superSub	frequent	False	NA	NA	NA	13134	11	48	english
+22	0.36	subSuper	frequent	False	NA	NA	NA	12515	11	48	english
+22	0.38	subSuper	infrequent	False	NA	NA	NA	10335	11	48	english
+22	0.98	NA	NA	NA	the gopher	NA	NA	7408	11	48	english
+22	0.86	NA	NA	NA	jill and tom	NA	NA	7812	11	48	english
+22	0.94	subSuper	frequent	True	NA	NA	NA	9492	11	48	english
+22	0.88	NA	NA	NA	adam and charlie	NA	NA	11789	11	48	english
+22	0.42	NA	NA	NA	math textbook	NA	NA	11633	11	48	english
+23	0.4	NA	NA	NA	pat telephoned	NA	NA	19444	11	22	English
+23	0.51	subSuper	frequent	True	NA	NA	NA	10008	11	22	English
+23	0.55	NA	NA	NA	nobody knew	NA	NA	9656	11	22	English
+23	0.34	subSuper	frequent	False	NA	NA	NA	4121	11	22	English
+23	0.79	superSub	infrequent	False	NA	NA	NA	4508	11	22	English
+23	0.61	NA	NA	NA	math textbook	NA	NA	8249	11	22	English
+23	0.88	NA	NA	NA	adam and charlie	NA	NA	7119	11	22	English
+23	0.43	subSuper	infrequent	False	NA	NA	NA	6287	11	22	English
+23	0.81	NA	NA	NA	jill and tom	NA	NA	5302	11	22	English
+23	0.61	NA	NA	NA	the gopher	NA	NA	5186	11	22	English
+23	0.64	superSub	frequent	False	NA	NA	NA	4209	11	22	English
+23	0.52	subSuper	infrequent	True	NA	NA	NA	7226	11	22	English
+24	0.91	NA	NA	NA	the gopher	NA	NA	4439	11	24	English
+24	0.89	NA	NA	NA	nobody knew	NA	NA	4392	11	24	English
+24	0.69	superSub	infrequent	False	NA	NA	NA	4928	11	24	English
+24	0.92	NA	NA	NA	adam and charlie	NA	NA	4695	11	24	English
+24	0.77	NA	NA	NA	math textbook	NA	NA	4666	11	24	English
+24	0.94	NA	NA	NA	jill and tom	NA	NA	1656	11	24	English
+24	0.94	subSuper	infrequent	True	NA	NA	NA	2081	11	24	English
+24	0.94	subSuper	frequent	False	NA	NA	NA	2743	11	24	English
+24	1	subSuper	frequent	True	NA	NA	NA	1706	11	24	English
+24	0.96	superSub	frequent	False	NA	NA	NA	3185	11	24	English
+24	0.42	NA	NA	NA	pat telephoned	NA	NA	3128	11	24	English
+24	0.93	subSuper	infrequent	False	NA	NA	NA	2538	11	24	English
+25	0.95	subSuper	infrequent	False	NA	NA	NA	3114	11	24	English
+25	0.64	NA	NA	NA	math textbook	NA	NA	3954	11	24	English
+25	0.85	NA	NA	NA	the gopher	NA	NA	1816	11	24	English
+25	1	NA	NA	NA	nobody knew	NA	NA	2049	11	24	English
+25	0.38	superSub	frequent	False	NA	NA	NA	2314	11	24	English
+25	0.73	NA	NA	NA	jill and tom	NA	NA	1681	11	24	English
+25	0.3	NA	NA	NA	pat telephoned	NA	NA	2209	11	24	English
+25	0.89	NA	NA	NA	adam and charlie	NA	NA	4048	11	24	English
+25	0.6	subSuper	frequent	True	NA	NA	NA	2528	11	24	English
+25	0.7	subSuper	frequent	False	NA	NA	NA	2594	11	24	English
+25	0.66	superSub	infrequent	False	NA	NA	NA	3162	11	24	English
+25	0.63	subSuper	infrequent	True	NA	NA	NA	2466	11	24	English
+26	1	NA	NA	NA	adam and charlie	NA	NA	3184	11	27	English
+26	0.78	subSuper	frequent	True	NA	NA	NA	5152	11	27	English
+26	1	NA	NA	NA	jill and tom	NA	NA	2736	11	27	English
+26	1	superSub	infrequent	False	NA	NA	NA	3657	11	27	English
+26	1	superSub	frequent	False	NA	NA	NA	1912	11	27	English
+26	0.92	subSuper	infrequent	False	NA	NA	NA	4016	11	27	English
+26	1	subSuper	frequent	False	NA	NA	NA	1673	11	27	English
+26	1	NA	NA	NA	the gopher	NA	NA	1840	11	27	English
+26	1	NA	NA	NA	nobody knew	NA	NA	2752	11	27	English
+26	1	subSuper	infrequent	True	NA	NA	NA	1497	11	27	English
+26	1	NA	NA	NA	math textbook	NA	NA	3208	11	27	English
+26	0.49	NA	NA	NA	pat telephoned	NA	NA	5721	11	27	English
+27	1	superSub	frequent	False	NA	NA	NA	4747	11	20	English
+27	0.5	NA	NA	NA	pat telephoned	NA	NA	8757	11	20	English
+27	0.87	superSub	infrequent	False	NA	NA	NA	5697	11	20	English
+27	0.57	subSuper	frequent	False	NA	NA	NA	4619	11	20	English
+27	1	NA	NA	NA	the gopher	NA	NA	2466	11	20	English
+27	0.73	NA	NA	NA	jill and tom	NA	NA	4623	11	20	English
+27	0.81	NA	NA	NA	adam and charlie	NA	NA	3924	11	20	English
+27	0.27	NA	NA	NA	math textbook	NA	NA	4433	11	20	English
+27	0.64	subSuper	infrequent	True	NA	NA	NA	10176	11	20	English
+27	0.5	NA	NA	NA	nobody knew	NA	NA	6643	11	20	English
+27	0.7	subSuper	frequent	True	NA	NA	NA	3770	11	20	English
+27	0.32	subSuper	infrequent	False	NA	NA	NA	5551	11	20	English
+28	0.15	subSuper	frequent	True	NA	NA	NA	6507	11	22	English
+28	0.83	superSub	frequent	False	NA	NA	NA	3566	11	22	English
+28	0.54	NA	NA	NA	pat telephoned	NA	NA	2883	11	22	English
+28	0.86	subSuper	frequent	False	NA	NA	NA	4073	11	22	English
+28	0.51	subSuper	infrequent	True	NA	NA	NA	3104	11	22	English
+28	0.97	NA	NA	NA	nobody knew	NA	NA	2276	11	22	English
+28	0.82	NA	NA	NA	the gopher	NA	NA	3259	11	22	English
+28	0.74	NA	NA	NA	adam and charlie	NA	NA	3221	11	22	English
+28	0.88	subSuper	infrequent	False	NA	NA	NA	1836	11	22	English
+28	0.58	superSub	infrequent	False	NA	NA	NA	3261	11	22	English
+28	0.79	NA	NA	NA	math textbook	NA	NA	2967	11	22	English
+28	0.86	NA	NA	NA	jill and tom	NA	NA	4118	11	22	English
+29	1	NA	NA	NA	nobody knew	NA	NA	8472	11	30	Englis
+29	1	NA	NA	NA	the gopher	NA	NA	3122	11	30	Englis
+29	1	NA	NA	NA	jill and tom	NA	NA	3152	11	30	Englis
+29	1	subSuper	frequent	True	NA	NA	NA	4353	11	30	Englis
+29	1	NA	NA	NA	adam and charlie	NA	NA	2842	11	30	Englis
+29	0.52	subSuper	frequent	False	NA	NA	NA	6585	11	30	Englis
+29	1	subSuper	infrequent	True	NA	NA	NA	2134	11	30	Englis
+29	1	subSuper	infrequent	False	NA	NA	NA	5877	11	30	Englis
+29	0.75	superSub	infrequent	False	NA	NA	NA	5112	11	30	Englis
+29	0.78	superSub	frequent	False	NA	NA	NA	6390	11	30	Englis
+29	0.33	NA	NA	NA	pat telephoned	NA	NA	3952	11	30	Englis
+29	1	NA	NA	NA	math textbook	NA	NA	4782	11	30	Englis
+30	1	subSuper	infrequent	True	NA	NA	NA	7712	11	25	english
+30	1	NA	NA	NA	nobody knew	NA	NA	4313	11	25	english
+30	0.66	NA	NA	NA	pat telephoned	NA	NA	6793	11	25	english
+30	1	superSub	infrequent	False	NA	NA	NA	3528	11	25	english
+30	1	NA	NA	NA	the gopher	NA	NA	1992	11	25	english
+30	1	subSuper	frequent	True	NA	NA	NA	4698	11	25	english
+30	0.99	subSuper	frequent	False	NA	NA	NA	3521	11	25	english
+30	1	NA	NA	NA	adam and charlie	NA	NA	4368	11	25	english
+30	1	superSub	frequent	False	NA	NA	NA	4385	11	25	english
+30	1	subSuper	infrequent	False	NA	NA	NA	2664	11	25	english
+30	0.84	NA	NA	NA	math textbook	NA	NA	8276	11	25	english
+30	1	NA	NA	NA	jill and tom	NA	NA	3216	11	25	english
+31	1	NA	NA	NA	adam and charlie	NA	NA	7151	11	22	English
+31	1	NA	NA	NA	math textbook	NA	NA	6688	11	22	English
+31	0.98	NA	NA	NA	the gopher	NA	NA	5327	11	22	English
+31	1	NA	NA	NA	nobody knew	NA	NA	5167	11	22	English
+31	0.15	NA	NA	NA	pat telephoned	NA	NA	11360	11	22	English
+31	1	subSuper	frequent	True	NA	NA	NA	4192	11	22	English
+31	0.89	subSuper	infrequent	True	NA	NA	NA	6935	11	22	English
+31	0.99	subSuper	frequent	False	NA	NA	NA	4536	11	22	English
+31	0.88	superSub	infrequent	False	NA	NA	NA	6024	11	22	English
+31	0.87	subSuper	infrequent	False	NA	NA	NA	10040	11	22	English
+31	0.9	superSub	frequent	False	NA	NA	NA	7800	11	22	English
+31	1	NA	NA	NA	jill and tom	NA	NA	3056	11	22	English
+32	1	subSuper	frequent	True	NA	NA	NA	5959	11	32	English
+32	0.86	NA	NA	NA	adam and charlie	NA	NA	8728	11	32	English
+32	0	NA	NA	NA	pat telephoned	NA	NA	6020	11	32	English
+32	0.78	subSuper	frequent	False	NA	NA	NA	6390	11	32	English
+32	1	superSub	infrequent	False	NA	NA	NA	3934	11	32	English
+32	1	NA	NA	NA	the gopher	NA	NA	4098	11	32	English
+32	0.51	superSub	frequent	False	NA	NA	NA	5831	11	32	English
+32	0.37	NA	NA	NA	nobody knew	NA	NA	9182	11	32	English
+32	1	NA	NA	NA	math textbook	NA	NA	5260	11	32	English
+32	1	subSuper	infrequent	False	NA	NA	NA	7941	11	32	English
+32	1	NA	NA	NA	jill and tom	NA	NA	5981	11	32	English
+32	1	subSuper	infrequent	True	NA	NA	NA	8508	11	32	English
+33	1	NA	NA	NA	nobody knew	NA	NA	4856	11	33	English
+33	1	NA	NA	NA	adam and charlie	NA	NA	3984	11	33	English
+33	1	NA	NA	NA	math textbook	NA	NA	3464	11	33	English
+33	0.63	subSuper	frequent	False	NA	NA	NA	6265	11	33	English
+33	0.21	NA	NA	NA	pat telephoned	NA	NA	5751	11	33	English
+33	0.89	subSuper	frequent	True	NA	NA	NA	3456	11	33	English
+33	1	superSub	infrequent	False	NA	NA	NA	5665	11	33	English
+33	1	NA	NA	NA	the gopher	NA	NA	2640	11	33	English
+33	1	NA	NA	NA	jill and tom	NA	NA	2688	11	33	English
+33	0.8	superSub	frequent	False	NA	NA	NA	6832	11	33	English
+33	1	subSuper	infrequent	False	NA	NA	NA	5792	11	33	English
+33	0.45	subSuper	infrequent	True	NA	NA	NA	7928	11	33	English
+34	1	superSub	infrequent	False	NA	NA	NA	7039	11	25	English
+34	0.8	NA	NA	NA	math textbook	NA	NA	8369	11	25	English
+34	1	superSub	frequent	False	NA	NA	NA	3564	11	25	English
+34	1	NA	NA	NA	nobody knew	NA	NA	3568	11	25	English
+34	1	subSuper	infrequent	True	NA	NA	NA	2853	11	25	English
+34	1	NA	NA	NA	jill and tom	NA	NA	2709	11	25	English
+34	0.7	NA	NA	NA	pat telephoned	NA	NA	15904	11	25	English
+34	1	NA	NA	NA	the gopher	NA	NA	3636	11	25	English
+34	1	subSuper	infrequent	False	NA	NA	NA	4210	11	25	English
+34	1	NA	NA	NA	adam and charlie	NA	NA	4815	11	25	English
+34	1	subSuper	frequent	False	NA	NA	NA	3981	11	25	English
+34	1	subSuper	frequent	True	NA	NA	NA	3449	11	25	English
+35	0.83	subSuper	infrequent	True	NA	NA	NA	6036	11	45	english
+35	0.84	NA	NA	NA	adam and charlie	NA	NA	10116	11	45	english
+35	0.99	superSub	frequent	False	NA	NA	NA	3760	11	45	english
+35	0.91	subSuper	infrequent	False	NA	NA	NA	5419	11	45	english
+35	0.98	NA	NA	NA	nobody knew	NA	NA	4849	11	45	english
+35	0.98	NA	NA	NA	math textbook	NA	NA	3118	11	45	english
+35	0.6	NA	NA	NA	pat telephoned	NA	NA	4927	11	45	english
+35	0.86	subSuper	frequent	True	NA	NA	NA	4054	11	45	english
+35	0.91	subSuper	frequent	False	NA	NA	NA	4558	11	45	english
+35	0.96	superSub	infrequent	False	NA	NA	NA	4659	11	45	english
+35	0.98	NA	NA	NA	the gopher	NA	NA	5734	11	45	english
+35	0.96	NA	NA	NA	jill and tom	NA	NA	2599	11	45	english
+36	0.96	subSuper	frequent	False	NA	NA	NA	6111	11	32	English
+36	0.75	subSuper	infrequent	True	NA	NA	NA	2955	11	32	English
+36	0.54	superSub	frequent	False	NA	NA	NA	5323	11	32	English
+36	0.72	subSuper	frequent	True	NA	NA	NA	6811	11	32	English
+36	0.18	NA	NA	NA	pat telephoned	NA	NA	5298	11	32	English
+36	0.73	NA	NA	NA	jill and tom	NA	NA	4129	11	32	English
+36	0.81	NA	NA	NA	adam and charlie	NA	NA	6780	11	32	English
+36	0.24	NA	NA	NA	math textbook	NA	NA	4168	11	32	English
+36	0.35	NA	NA	NA	nobody knew	NA	NA	12504	11	32	English
+36	0.42	superSub	infrequent	False	NA	NA	NA	13363	11	32	English
+36	0.58	subSuper	infrequent	False	NA	NA	NA	8341	11	32	English
+36	0.85	NA	NA	NA	the gopher	NA	NA	2283	11	32	English
+37	1	subSuper	infrequent	False	NA	NA	NA	8729	11	41	English
+37	0.75	NA	NA	NA	pat telephoned	NA	NA	12959	11	41	English
+37	1	subSuper	infrequent	True	NA	NA	NA	4356	11	41	English
+37	1	NA	NA	NA	the gopher	NA	NA	5242	11	41	English
+37	1	NA	NA	NA	jill and tom	NA	NA	5186	11	41	English
+37	0.92	subSuper	frequent	False	NA	NA	NA	7454	11	41	English
+37	0.92	NA	NA	NA	math textbook	NA	NA	8014	11	41	English
+37	1	NA	NA	NA	adam and charlie	NA	NA	6380	11	41	English
+37	0.56	superSub	frequent	False	NA	NA	NA	13228	11	41	English
+37	1	NA	NA	NA	nobody knew	NA	NA	4782	11	41	English
+37	0.89	subSuper	frequent	True	NA	NA	NA	14751	11	41	English
+37	1	superSub	infrequent	False	NA	NA	NA	8815	11	41	English
+38	1	subSuper	frequent	False	NA	NA	NA	4983	11	18	English+and+Spanish
+38	0.82	subSuper	infrequent	False	NA	NA	NA	3715	11	18	English+and+Spanish
+38	0.37	NA	NA	NA	pat telephoned	NA	NA	7694	11	18	English+and+Spanish
+38	0.42	subSuper	frequent	True	NA	NA	NA	9039	11	18	English+and+Spanish
+38	0.64	subSuper	infrequent	True	NA	NA	NA	6673	11	18	English+and+Spanish
+38	1	NA	NA	NA	math textbook	NA	NA	2882	11	18	English+and+Spanish
+38	1	superSub	frequent	False	NA	NA	NA	13147	11	18	English+and+Spanish
+38	1	NA	NA	NA	nobody knew	NA	NA	4006	11	18	English+and+Spanish
+38	1	NA	NA	NA	jill and tom	NA	NA	4125	11	18	English+and+Spanish
+38	0.9	NA	NA	NA	the gopher	NA	NA	9354	11	18	English+and+Spanish
+38	0.84	NA	NA	NA	adam and charlie	NA	NA	23121	11	18	English+and+Spanish
+38	0.97	superSub	infrequent	False	NA	NA	NA	4674	11	18	English+and+Spanish
+39	0.23	NA	NA	NA	pat telephoned	NA	NA	7492	11	28	Spanish
+39	0.76	NA	NA	NA	adam and charlie	NA	NA	3789	11	28	Spanish
+39	0.93	subSuper	infrequent	True	NA	NA	NA	3342	11	28	Spanish
+39	0.38	superSub	frequent	False	NA	NA	NA	5116	11	28	Spanish
+39	1	NA	NA	NA	jill and tom	NA	NA	13303	11	28	Spanish
+39	0.92	NA	NA	NA	nobody knew	NA	NA	4119	11	28	Spanish
+39	0.89	subSuper	frequent	False	NA	NA	NA	2963	11	28	Spanish
+39	0.63	NA	NA	NA	the gopher	NA	NA	3117	11	28	Spanish
+39	1	superSub	infrequent	False	NA	NA	NA	10111	11	28	Spanish
+39	0.66	subSuper	infrequent	False	NA	NA	NA	4305	11	28	Spanish
+39	0.85	NA	NA	NA	math textbook	NA	NA	3877	11	28	Spanish
+39	1	subSuper	frequent	True	NA	NA	NA	4172	11	28	Spanish
+40	1	NA	NA	NA	the gopher	NA	NA	3087	11	23	English
+40	0.98	NA	NA	NA	adam and charlie	NA	NA	4094	11	23	English
+40	0.9	subSuper	infrequent	True	NA	doctors	At the conference there was a special informational session for anesthesiologists and other doctors.	10433	11	23	English
+40	0.89	NA	NA	NA	nobody knew	NA	NA	8892	11	23	English
+40	1	subSuper	infrequent	False	NA	scientists	The advisory panel included a number of paleontologists and scientists.	4896	11	23	English
+40	0.87	subSuper	frequent	False	NA	trees	Oaks and trees lined the path through the forest.	6360	11	23	English
+40	0.87	superSub	infrequent	False	NA	flowers	This shop sells flowers and daffodils.	6896	11	23	English
+40	0.86	NA	NA	NA	pat telephoned	NA	NA	6368	11	23	English
+40	1	NA	NA	NA	math textbook	NA	NA	6696	11	23	English
+40	0.86	superSub	frequent	False	NA	animal	Lilly ran an animal and horse rescue operation in the small town.	4289	11	23	English
+40	1	NA	NA	NA	jill and tom	NA	NA	4041	11	23	English
+40	1	subSuper	frequent	True	NA	meat	The recipe called for beef and other meat to be included in the stew.	4312	11	23	English
+41	1	subSuper	infrequent	True	NA	meat	The recipe called for veal and other meat to be included in the stew.	5807	11	32	english
+41	1	subSuper	infrequent	False	NA	doctors	At the conference there was a special informational session for anesthesiologists and doctors.	6368	11	32	english
+41	0.99	NA	NA	NA	adam and charlie	NA	NA	4696	11	32	english
+41	0.99	superSub	frequent	False	NA	animal	Lilly ran an animal and horse rescue operation in the small town.	9672	11	32	english
+41	0.98	subSuper	frequent	True	NA	flowers	This shop sells roses and other flowers.	2592	11	32	english
+41	1	NA	NA	NA	nobody knew	NA	NA	3863	11	32	english
+41	1	NA	NA	NA	the gopher	NA	NA	3271	11	32	english
+41	1	NA	NA	NA	jill and tom	NA	NA	2911	11	32	english
+41	0.99	subSuper	frequent	False	NA	scientists	The advisory panel included a number of biologists and scientists.	3208	11	32	english
+41	1	superSub	infrequent	False	NA	trees	Trees and spruces lined the path through the forest.	2960	11	32	english
+41	1	NA	NA	NA	pat telephoned	NA	NA	6656	11	32	english
+41	1	NA	NA	NA	math textbook	NA	NA	4951	11	32	english
+42	1	NA	NA	NA	the gopher	NA	NA	6205	11	27	English
+42	0.89	subSuper	infrequent	True	NA	doctors	At the conference there was a special informational session for anesthesiologists and other doctors.	8031	11	27	English
+42	0.34	NA	NA	NA	pat telephoned	NA	NA	9802	11	27	English
+42	0.61	subSuper	frequent	False	NA	animal	Lilly ran a horse and animal rescue operation in the small town.	7589	11	27	English
+42	0.89	NA	NA	NA	nobody knew	NA	NA	6516	11	27	English
+42	1	superSub	frequent	False	NA	scientists	The advisory panel included a number of scientists and biologists.	4055	11	27	English
+42	1	subSuper	frequent	True	NA	trees	Oaks and other trees lined the path through the forest.	3387	11	27	English
+42	0.49	subSuper	infrequent	False	NA	flowers	This shop sells daffodils and flowers.	8666	11	27	English
+42	0.71	superSub	infrequent	False	NA	meat	The recipe called for meat and veal to be included in the stew.	6751	11	27	English
+42	1	NA	NA	NA	math textbook	NA	NA	5563	11	27	English
+42	1	NA	NA	NA	jill and tom	NA	NA	4151	11	27	English
+42	0.98	NA	NA	NA	adam and charlie	NA	NA	4636	11	27	English
+43	1	superSub	frequent	False	NA	animal	Lilly ran an animal and horse rescue operation in the small town.	7618	11	45	English
+43	1	NA	NA	NA	adam and charlie	NA	NA	3459	11	45	English
+43	1	subSuper	infrequent	True	NA	doctors	At the conference there was a special informational session for anesthesiologists and other doctors.	5197	11	45	English
+43	0.7	superSub	infrequent	False	NA	meat	The recipe called for meat and veal to be included in the stew.	7000	11	45	English
+43	1	NA	NA	NA	math textbook	NA	NA	5999	11	45	English
+43	1	NA	NA	NA	the gopher	NA	NA	1958	11	45	English
+43	1	subSuper	frequent	True	NA	flowers	This shop sells roses and other flowers.	2297	11	45	English
+43	1	subSuper	frequent	False	NA	scientists	The advisory panel included a number of biologists and scientists.	2649	11	45	English
+43	1	NA	NA	NA	jill and tom	NA	NA	2845	11	45	English
+43	1	NA	NA	NA	pat telephoned	NA	NA	3632	11	45	English
+43	0.54	subSuper	infrequent	False	NA	trees	Spruces and trees lined the path through the forest.	8250	11	45	English
+43	1	NA	NA	NA	nobody knew	NA	NA	3475	11	45	English
+44	0.94	superSub	infrequent	False	NA	doctors	At the conference there was a special informational session for doctors and anesthesiologists.	6564	11	38	English
+44	0.21	subSuper	infrequent	True	NA	animal	Lilly ran a waterfowl and other animal rescue operation in the small town.	3874	11	38	English
+44	0.34	NA	NA	NA	pat telephoned	NA	NA	2845	11	38	English
+44	0.97	NA	NA	NA	nobody knew	NA	NA	5373	11	38	English
+44	0.65	subSuper	frequent	False	NA	trees	Oaks and trees lined the path through the forest.	4962	11	38	English
+44	0.66	NA	NA	NA	math textbook	NA	NA	6806	11	38	English
+44	0.42	superSub	frequent	False	NA	flowers	This shop sells flowers and roses.	3194	11	38	English
+44	0.99	NA	NA	NA	jill and tom	NA	NA	4033	11	38	English
+44	1	NA	NA	NA	the gopher	NA	NA	3898	11	38	English
+44	0.46	subSuper	infrequent	False	NA	scientists	The advisory panel included a number of paleontologists and scientists.	4355	11	38	English
+44	0.75	NA	NA	NA	adam and charlie	NA	NA	5482	11	38	English
+44	0.85	subSuper	frequent	True	NA	meat	The recipe called for beef and other meat to be included in the stew.	4190	11	38	English
+45	0.97	subSuper	frequent	False	NA	animal	Lilly ran a horse and animal rescue operation in the small town.	5176	11	50	English
+45	0.97	NA	NA	NA	jill and tom	NA	NA	4928	11	50	English
+45	0.98	NA	NA	NA	adam and charlie	NA	NA	4961	11	50	English
+45	0.31	superSub	frequent	False	NA	trees	Trees and oaks lined the path through the forest.	8921	11	50	English
+45	0.64	NA	NA	NA	nobody knew	NA	NA	11105	11	50	English
+45	0.61	superSub	infrequent	False	NA	doctors	At the conference there was a special informational session for doctors and anesthesiologists.	13568	11	50	English
+45	0.25	subSuper	frequent	True	NA	meat	The recipe called for beef and other meat to be included in the stew.	5496	11	50	English
+45	0.6	subSuper	infrequent	True	NA	flowers	This shop sells daffodils and other flowers.	4160	11	50	English
+45	0.04	NA	NA	NA	pat telephoned	NA	NA	3960	11	50	English
+45	0.99	NA	NA	NA	math textbook	NA	NA	7096	11	50	English
+45	0.95	NA	NA	NA	the gopher	NA	NA	2881	11	50	English
+45	0.65	subSuper	infrequent	False	NA	scientists	The advisory panel included a number of paleontologists and scientists.	10721	11	50	English
+46	1	superSub	infrequent	False	NA	meat	The recipe called for meat and veal to be included in the stew.	13438	11	32	English
+46	1	NA	NA	NA	adam and charlie	NA	NA	5690	11	32	English
+46	1	subSuper	frequent	True	NA	flowers	This shop sells roses and other flowers.	4379	11	32	English
+46	0.5	subSuper	frequent	False	NA	trees	Oaks and trees lined the path through the forest.	8764	11	32	English
+46	1	subSuper	infrequent	False	NA	doctors	At the conference there was a special informational session for anesthesiologists and doctors.	7029	11	32	English
+46	1	NA	NA	NA	jill and tom	NA	NA	3467	11	32	English
+46	1	NA	NA	NA	the gopher	NA	NA	3741	11	32	English
+46	0.97	NA	NA	NA	nobody knew	NA	NA	7210	11	32	English
+46	1	NA	NA	NA	math textbook	NA	NA	8574	11	32	English
+46	0.5	NA	NA	NA	pat telephoned	NA	NA	8016	11	32	English
+46	0.5	superSub	frequent	False	NA	animal	Lilly ran an animal and horse rescue operation in the small town.	5572	11	32	English
+46	0.99	subSuper	infrequent	True	NA	scientists	The advisory panel included a number of paleontologists and other scientists.	6920	11	32	English
+47	0.58	NA	NA	NA	the gopher	NA	NA	4155	11	24	English
+47	0.65	subSuper	frequent	True	NA	trees	Oaks and other trees lined the path through the forest.	2852	11	24	English
+47	0.34	NA	NA	NA	adam and charlie	NA	NA	3786	11	24	English
+47	0.5	subSuper	infrequent	False	NA	meat	The recipe called for veal and meat to be included in the stew.	1925	11	24	English
+47	0.36	superSub	infrequent	False	NA	animal	Lilly ran an animal and waterfowl rescue operation in the small town.	4397	11	24	English
+47	0.59	subSuper	frequent	False	NA	scientists	The advisory panel included a number of biologists and scientists.	2270	11	24	English
+47	0.59	NA	NA	NA	pat telephoned	NA	NA	1819	11	24	English
+47	0.59	NA	NA	NA	jill and tom	NA	NA	1734	11	24	English
+47	0.28	subSuper	infrequent	True	NA	doctors	At the conference there was a special informational session for anesthesiologists and other doctors.	1829	11	24	English
+47	0.63	NA	NA	NA	nobody knew	NA	NA	1864	11	24	English
+47	0.67	NA	NA	NA	math textbook	NA	NA	1711	11	24	English
+47	0.62	superSub	frequent	False	NA	flowers	This shop sells flowers and roses.	1535	11	24	English
+48	0.88	subSuper	frequent	True	NA	trees	Oaks and other trees lined the path through the forest.	11828	11	37	English
+48	0.99	NA	NA	NA	adam and charlie	NA	NA	3582	11	37	English
+48	0.98	NA	NA	NA	nobody knew	NA	NA	5119	11	37	English
+48	1	NA	NA	NA	jill and tom	NA	NA	6996	11	37	English
+48	0.83	NA	NA	NA	pat telephoned	NA	NA	5098	11	37	English
+48	0.92	NA	NA	NA	math textbook	NA	NA	5799	11	37	English
+48	1	superSub	frequent	False	NA	flowers	This shop sells flowers and roses.	1970	11	37	English
+48	1	subSuper	infrequent	True	NA	doctors	At the conference there was a special informational session for anesthesiologists and other doctors.	5427	11	37	English
+48	0.99	superSub	infrequent	False	NA	scientists	The advisory panel included a number of scientists and paleontologists.	2740	11	37	English
+48	0.97	NA	NA	NA	the gopher	NA	NA	2735	11	37	English
+48	1	subSuper	infrequent	False	NA	animal	Lilly ran a waterfowl and animal rescue operation in the small town.	5240	11	37	English
+48	0.53	subSuper	frequent	False	NA	meat	The recipe called for beef and meat to be included in the stew.	9511	11	37	English
+49	1	NA	NA	NA	math textbook	NA	NA	14742	11	59	Chinese
+49	0.13	superSub	frequent	False	NA	trees	Trees and oaks lined the path through the forest.	17734	11	59	Chinese
+49	1	subSuper	infrequent	True	NA	flowers	This shop sells daffodils and other flowers.	13055	11	59	Chinese
+49	0.18	subSuper	infrequent	False	NA	meat	The recipe called for veal and meat to be included in the stew.	15958	11	59	Chinese
+49	1	subSuper	frequent	True	NA	animal	Lilly ran a horse and other animal rescue operation in the small town.	18507	11	59	Chinese
+49	1	NA	NA	NA	nobody knew	NA	NA	13239	11	59	Chinese
+49	0.97	NA	NA	NA	jill and tom	NA	NA	6053	11	59	Chinese
+49	0.26	NA	NA	NA	pat telephoned	NA	NA	13489	11	59	Chinese
+49	0.97	superSub	infrequent	False	NA	scientists	The advisory panel included a number of scientists and paleontologists.	17888	11	59	Chinese
+49	0.98	NA	NA	NA	the gopher	NA	NA	13945	11	59	Chinese
+49	0.99	subSuper	frequent	False	NA	doctors	At the conference there was a special informational session for surgeons and doctors.	18367	11	59	Chinese
+49	0.5	NA	NA	NA	adam and charlie	NA	NA	28018	11	59	Chinese

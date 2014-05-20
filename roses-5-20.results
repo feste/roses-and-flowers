@@ -1,0 +1,331 @@
+subject	rating	order	frequency	hasOther	filler	item	sentence	rt	qNumber	age	language
+0	1	NA	NA	NA	adam and charlie	NA	NA	5645	10	25	English
+0	0.99	subSuper	infrequent	False	NA	animal	Lilly ran a waterfowl and animal rescue operation in the small town.	4647	10	25	English
+0	0.88	NA	NA	NA	math textbook	NA	NA	4946	10	25	English
+0	0.79	superSub	infrequent	False	NA	scientists	The advisory panel included a number of scientists and paleontologists.	4944	10	25	English
+0	1	NA	NA	NA	the gopher	NA	NA	5846	10	25	English
+0	0.41	subSuper	infrequent	True	NA	trees	Spruces and other trees lined the path through the forest.	6669	10	25	English
+0	1	superSub	frequent	False	NA	flowers	This shop sells flowers and roses.	3041	10	25	English
+0	1	subSuper	frequent	False	NA	meat	The recipe called for beef and meat to be included in the stew.	3033	10	25	English
+0	0.34	NA	NA	NA	nobody knew	NA	NA	6174	10	25	English
+0	0.67	subSuper	frequent	True	NA	doctors	At the conference there was a special informational session for surgeons and other doctors.	5902	10	25	English
+0	0	NA	NA	NA	off a cliff	NA	NA	3173	10	25	English
+1	0.74	subSuper	frequent	False	NA	scientists	The advisory panel included a number of biologists and scientists.	28060	10	29	English
+1	0.79	NA	NA	NA	nobody knew	NA	NA	4757	10	29	English
+1	0.77	NA	NA	NA	the gopher	NA	NA	3602	10	29	English
+1	0.71	subSuper	infrequent	True	NA	doctors	At the conference there was a special informational session for anesthesiologists and other doctors.	4251	10	29	English
+1	0.96	superSub	infrequent	False	NA	meat	The recipe called for meat and veal to be included in the stew.	5464	10	29	English
+1	0.7	superSub	frequent	False	NA	trees	Trees and oaks lined the path through the forest.	2358	10	29	English
+1	0.55	NA	NA	NA	off a cliff	NA	NA	6377	10	29	English
+1	0.93	subSuper	frequent	True	NA	flowers	This shop sells roses and other flowers.	2258	10	29	English
+1	0.76	subSuper	infrequent	False	NA	animal	Lilly ran a waterfowl and animal rescue operation in the small town.	5288	10	29	English
+1	0.84	NA	NA	NA	math textbook	NA	NA	4075	10	29	English
+1	0.92	NA	NA	NA	adam and charlie	NA	NA	4110	10	29	English
+2	1	superSub	infrequent	False	NA	scientists	The advisory panel included a number of scientists and paleontologists.	5499	10	60	English
+2	0.79	NA	NA	NA	math textbook	NA	NA	7536	10	60	English
+2	0.86	subSuper	frequent	False	NA	doctors	At the conference there was a special informational session for surgeons and doctors.	4248	10	60	English
+2	0	subSuper	infrequent	True	NA	animal	Lilly ran a waterfowl and other animal rescue operation in the small town.	6720	10	60	English
+2	0.01	subSuper	infrequent	False	NA	trees	Spruces and trees lined the path through the forest.	4465	10	60	English
+2	0.89	subSuper	frequent	True	NA	meat	The recipe called for beef and other meat to be included in the stew.	5056	10	60	English
+2	0.72	NA	NA	NA	adam and charlie	NA	NA	5216	10	60	English
+2	0	superSub	frequent	False	NA	flowers	This shop sells flowers and roses.	5399	10	60	English
+2	0.13	NA	NA	NA	nobody knew	NA	NA	5607	10	60	English
+2	0	NA	NA	NA	off a cliff	NA	NA	3872	10	60	English
+2	0.76	NA	NA	NA	the gopher	NA	NA	3919	10	60	English
+3	1	NA	NA	NA	the gopher	NA	NA	4030	10	29	English
+3	0.88	subSuper	frequent	False	NA	animal	Lilly ran a horse and animal rescue operation in the small town.	7408	10	29	English
+3	0.72	NA	NA	NA	math textbook	NA	NA	11066	10	29	English
+3	1	superSub	infrequent	False	NA	scientists	The advisory panel included a number of scientists and paleontologists.	3846	10	29	English
+3	1	subSuper	frequent	True	NA	trees	Oaks and other trees lined the path through the forest.	2754	10	29	English
+3	1	subSuper	infrequent	False	NA	flowers	This shop sells daffodils and flowers.	2745	10	29	English
+3	0.47	superSub	frequent	False	NA	meat	The recipe called for meat and beef to be included in the stew.	9199	10	29	English
+3	0.93	NA	NA	NA	off a cliff	NA	NA	10789	10	29	English
+3	0.74	NA	NA	NA	adam and charlie	NA	NA	8778	10	29	English
+3	1	NA	NA	NA	nobody knew	NA	NA	3560	10	29	English
+3	0.31	subSuper	infrequent	True	NA	doctors	At the conference there was a special informational session for anesthesiologists and other doctors.	20437	10	29	English
+4	0.8	subSuper	frequent	False	NA	animal	Lilly ran a horse and animal rescue operation in the small town.	6467	10	28	English
+4	0.22	NA	NA	NA	off a cliff	NA	NA	4890	10	28	English
+4	0.95	superSub	frequent	False	NA	scientists	The advisory panel included a number of scientists and biologists.	3657	10	28	English
+4	0.59	NA	NA	NA	math textbook	NA	NA	5753	10	28	English
+4	0.7	subSuper	frequent	True	NA	doctors	At the conference there was a special informational session for surgeons and other doctors.	5120	10	28	English
+4	0.82	superSub	infrequent	False	NA	trees	Trees and spruces lined the path through the forest.	4383	10	28	English
+4	0.76	NA	NA	NA	the gopher	NA	NA	4984	10	28	English
+4	0.86	subSuper	infrequent	True	NA	flowers	This shop sells daffodils and other flowers.	3697	10	28	English
+4	0.9	NA	NA	NA	nobody knew	NA	NA	5722	10	28	English
+4	0.78	NA	NA	NA	adam and charlie	NA	NA	6380	10	28	English
+4	0.67	subSuper	infrequent	False	NA	meat	The recipe called for veal and meat to be included in the stew.	4838	10	28	English
+5	0.99	NA	NA	NA	nobody knew	NA	NA	4955	10	34	English
+5	0.9	NA	NA	NA	the gopher	NA	NA	5661	10	34	English
+5	0.91	NA	NA	NA	adam and charlie	NA	NA	4362	10	34	English
+5	0.94	subSuper	infrequent	False	NA	flowers	This shop sells daffodils and flowers.	5498	10	34	English
+5	0.9	superSub	infrequent	False	NA	animal	Lilly ran an animal and waterfowl rescue operation in the small town.	6346	10	34	English
+5	0.62	subSuper	frequent	False	NA	meat	The recipe called for beef and meat to be included in the stew.	4027	10	34	English
+5	0.71	superSub	frequent	False	NA	doctors	At the conference there was a special informational session for doctors and surgeons.	5212	10	34	English
+5	0.21	NA	NA	NA	off a cliff	NA	NA	4668	10	34	English
+5	0.7	subSuper	infrequent	True	NA	trees	Spruces and other trees lined the path through the forest.	3837	10	34	English
+5	0.81	subSuper	frequent	True	NA	scientists	The advisory panel included a number of biologists and other scientists.	5979	10	34	English
+5	0.78	NA	NA	NA	math textbook	NA	NA	5178	10	34	English
+6	0.18	superSub	infrequent	False	NA	doctors	At the conference there was a special informational session for doctors and anesthesiologists.	28150	10	47	English
+6	0.89	subSuper	frequent	True	NA	meat	The recipe called for beef and other meat to be included in the stew.	8417	10	47	English
+6	0.59	subSuper	infrequent	False	NA	animal	Lilly ran a waterfowl and animal rescue operation in the small town.	18728	10	47	English
+6	0.18	subSuper	frequent	False	NA	trees	Oaks and trees lined the path through the forest.	13667	10	47	English
+6	0.91	NA	NA	NA	the gopher	NA	NA	5199	10	47	English
+6	0.9	NA	NA	NA	adam and charlie	NA	NA	11051	10	47	English
+6	0.85	NA	NA	NA	math textbook	NA	NA	8095	10	47	English
+6	0.19	NA	NA	NA	off a cliff	NA	NA	24729	10	47	English
+6	0.84	subSuper	infrequent	True	NA	flowers	This shop sells daffodils and other flowers.	10801	10	47	English
+6	0.91	NA	NA	NA	nobody knew	NA	NA	14464	10	47	English
+6	0.92	superSub	frequent	False	NA	scientists	The advisory panel included a number of scientists and biologists.	9521	10	47	English
+7	1	NA	NA	NA	math textbook	NA	NA	6412	10	45	English
+7	1	superSub	infrequent	False	NA	scientists	The advisory panel included a number of scientists and paleontologists.	5098	10	45	English
+7	0.01	NA	NA	NA	off a cliff	NA	NA	4118	10	45	English
+7	0.7	subSuper	frequent	True	NA	meat	The recipe called for beef and other meat to be included in the stew.	5894	10	45	English
+7	0.18	subSuper	frequent	False	NA	trees	Oaks and trees lined the path through the forest.	4772	10	45	English
+7	1	NA	NA	NA	the gopher	NA	NA	5752	10	45	English
+7	1	NA	NA	NA	adam and charlie	NA	NA	4877	10	45	English
+7	0.5	NA	NA	NA	nobody knew	NA	NA	5513	10	45	English
+7	0.13	subSuper	infrequent	True	NA	animal	Lilly ran a waterfowl and other animal rescue operation in the small town.	5855	10	45	English
+7	0.75	superSub	frequent	False	NA	doctors	At the conference there was a special informational session for doctors and surgeons.	6798	10	45	English
+7	0	subSuper	infrequent	False	NA	flowers	This shop sells daffodils and flowers.	4183	10	45	English
+8	0.95	NA	NA	NA	nobody knew	NA	NA	3922	10	24	english
+8	0.35	NA	NA	NA	off a cliff	NA	NA	2028	10	24	english
+8	0.7	superSub	frequent	False	NA	animal	Lilly ran an animal and horse rescue operation in the small town.	10142	10	24	english
+8	0.94	superSub	infrequent	False	NA	doctors	At the conference there was a special informational session for doctors and anesthesiologists.	2193	10	24	english
+8	0.92	subSuper	infrequent	True	NA	scientists	The advisory panel included a number of paleontologists and other scientists.	5415	10	24	english
+8	0.98	subSuper	frequent	True	NA	trees	Oaks and other trees lined the path through the forest.	4659	10	24	english
+8	0.63	subSuper	frequent	False	NA	meat	The recipe called for beef and meat to be included in the stew.	1766	10	24	english
+8	0.89	NA	NA	NA	adam and charlie	NA	NA	5034	10	24	english
+8	0.73	NA	NA	NA	math textbook	NA	NA	4295	10	24	english
+8	0.95	subSuper	infrequent	False	NA	flowers	This shop sells daffodils and flowers.	3252	10	24	english
+8	0.95	NA	NA	NA	the gopher	NA	NA	1725	10	24	english
+9	0.99	NA	NA	NA	math textbook	NA	NA	6139	10	25	english
+9	0.82	superSub	infrequent	False	NA	meat	The recipe called for meat and veal to be included in the stew.	5854	10	25	english
+9	0.14	NA	NA	NA	off a cliff	NA	NA	5264	10	25	english
+9	0.87	NA	NA	NA	the gopher	NA	NA	5919	10	25	english
+9	0.37	superSub	frequent	False	NA	trees	Trees and oaks lined the path through the forest.	6489	10	25	english
+9	0.5	subSuper	infrequent	True	NA	doctors	At the conference there was a special informational session for anesthesiologists and other doctors.	9048	10	25	english
+9	0.71	NA	NA	NA	adam and charlie	NA	NA	5920	10	25	english
+9	0.85	subSuper	frequent	False	NA	flowers	This shop sells roses and flowers.	5030	10	25	english
+9	0.75	subSuper	frequent	True	NA	scientists	The advisory panel included a number of biologists and other scientists.	6321	10	25	english
+9	0.72	NA	NA	NA	nobody knew	NA	NA	7813	10	25	english
+9	0.5	subSuper	infrequent	False	NA	animal	Lilly ran a waterfowl and animal rescue operation in the small town.	7777	10	25	english
+10	0.85	NA	NA	NA	math textbook	NA	NA	18567	10	28	English
+10	0.86	subSuper	frequent	True	NA	doctors	At the conference there was a special informational session for surgeons and other doctors.	13164	10	28	English
+10	0.95	NA	NA	NA	adam and charlie	NA	NA	5948	10	28	English
+10	0.73	superSub	infrequent	False	NA	animal	Lilly ran an animal and waterfowl rescue operation in the small town.	10556	10	28	English
+10	0.85	subSuper	frequent	False	NA	flowers	This shop sells roses and flowers.	2819	10	28	English
+10	0.85	superSub	frequent	False	NA	scientists	The advisory panel included a number of scientists and biologists.	3236	10	28	English
+10	0.88	subSuper	infrequent	True	NA	trees	Spruces and other trees lined the path through the forest.	5712	10	28	English
+10	0.77	NA	NA	NA	the gopher	NA	NA	3303	10	28	English
+10	0.58	subSuper	infrequent	False	NA	meat	The recipe called for veal and meat to be included in the stew.	7320	10	28	English
+10	0.45	NA	NA	NA	off a cliff	NA	NA	3915	10	28	English
+10	0.9	NA	NA	NA	nobody knew	NA	NA	4001	10	28	English
+11	1	subSuper	frequent	False	NA	doctors	At the conference there was a special informational session for surgeons and doctors.	6963	10	27	English
+11	0.14	NA	NA	NA	off a cliff	NA	NA	5111	10	27	English
+11	1	NA	NA	NA	math textbook	NA	NA	5503	10	27	English
+11	1	NA	NA	NA	the gopher	NA	NA	3580	10	27	English
+11	1	NA	NA	NA	adam and charlie	NA	NA	4150	10	27	English
+11	0.62	subSuper	infrequent	False	NA	meat	The recipe called for veal and meat to be included in the stew.	4078	10	27	English
+11	0.31	subSuper	frequent	True	NA	animal	Lilly ran a horse and other animal rescue operation in the small town.	8037	10	27	English
+11	0	superSub	infrequent	False	NA	trees	Trees and spruces lined the path through the forest.	10804	10	27	English
+11	1	subSuper	infrequent	True	NA	flowers	This shop sells daffodils and other flowers.	3327	10	27	English
+11	0.71	superSub	frequent	False	NA	scientists	The advisory panel included a number of scientists and biologists.	7765	10	27	English
+11	0.26	NA	NA	NA	nobody knew	NA	NA	5436	10	27	English
+12	0.66	subSuper	infrequent	False	NA	scientists	The advisory panel included a number of paleontologists and scientists.	5037	10	21	English
+12	0.58	NA	NA	NA	math textbook	NA	NA	3855	10	21	English
+12	0.74	superSub	frequent	False	NA	meat	The recipe called for meat and beef to be included in the stew.	2948	10	21	English
+12	0.46	NA	NA	NA	off a cliff	NA	NA	2534	10	21	English
+12	0.79	subSuper	frequent	True	NA	flowers	This shop sells roses and other flowers.	3238	10	21	English
+12	0.78	NA	NA	NA	nobody knew	NA	NA	4304	10	21	English
+12	0.29	subSuper	infrequent	True	NA	animal	Lilly ran a waterfowl and other animal rescue operation in the small town.	4549	10	21	English
+12	0.83	NA	NA	NA	adam and charlie	NA	NA	2642	10	21	English
+12	0.57	subSuper	frequent	False	NA	trees	Oaks and trees lined the path through the forest.	1954	10	21	English
+12	0.84	NA	NA	NA	the gopher	NA	NA	1887	10	21	English
+12	0.89	superSub	infrequent	False	NA	doctors	At the conference there was a special informational session for doctors and anesthesiologists.	2894	10	21	English
+13	0.88	superSub	frequent	False	NA	meat	The recipe called for meat and beef to be included in the stew.	28932	10	28	english
+13	0.81	NA	NA	NA	nobody knew	NA	NA	2130	10	28	english
+13	0.89	NA	NA	NA	math textbook	NA	NA	1081	10	28	english
+13	0.87	NA	NA	NA	the gopher	NA	NA	952	10	28	english
+13	0.86	NA	NA	NA	adam and charlie	NA	NA	840	10	28	english
+13	0.17	NA	NA	NA	off a cliff	NA	NA	2790	10	28	english
+13	0.8	superSub	infrequent	False	NA	scientists	The advisory panel included a number of scientists and paleontologists.	1758	10	28	english
+13	0.8	subSuper	infrequent	True	NA	animal	Lilly ran a waterfowl and other animal rescue operation in the small town.	1329	10	28	english
+13	0.84	subSuper	infrequent	False	NA	flowers	This shop sells daffodils and flowers.	1091	10	28	english
+13	0.86	subSuper	frequent	False	NA	doctors	At the conference there was a special informational session for surgeons and doctors.	4202	10	28	english
+13	0.85	subSuper	frequent	True	NA	trees	Oaks and other trees lined the path through the forest.	1058	10	28	english
+14	1	subSuper	infrequent	True	NA	doctors	At the conference there was a special informational session for anesthesiologists and other doctors.	7388	10	24	English
+14	1	NA	NA	NA	adam and charlie	NA	NA	4242	10	24	English
+14	0.52	NA	NA	NA	off a cliff	NA	NA	6809	10	24	English
+14	0.82	subSuper	frequent	True	NA	meat	The recipe called for beef and other meat to be included in the stew.	5772	10	24	English
+14	1	superSub	infrequent	False	NA	scientists	The advisory panel included a number of scientists and paleontologists.	3368	10	24	English
+14	1	NA	NA	NA	math textbook	NA	NA	4131	10	24	English
+14	1	subSuper	infrequent	False	NA	trees	Spruces and trees lined the path through the forest.	3447	10	24	English
+14	0.69	subSuper	frequent	False	NA	animal	Lilly ran a horse and animal rescue operation in the small town.	4578	10	24	English
+14	1	NA	NA	NA	the gopher	NA	NA	2707	10	24	English
+14	0.78	NA	NA	NA	nobody knew	NA	NA	4355	10	24	English
+14	0.78	superSub	frequent	False	NA	flowers	This shop sells flowers and roses.	3714	10	24	English
+15	0.87	NA	NA	NA	the gopher	NA	NA	2617	10	36	English
+15	0.69	NA	NA	NA	math textbook	NA	NA	2687	10	36	English
+15	0.73	subSuper	frequent	True	NA	doctors	At the conference there was a special informational session for surgeons and other doctors.	1567	10	36	English
+15	0.37	superSub	infrequent	False	NA	meat	The recipe called for meat and veal to be included in the stew.	1634	10	36	English
+15	0.36	subSuper	frequent	False	NA	scientists	The advisory panel included a number of biologists and scientists.	1386	10	36	English
+15	0.72	subSuper	infrequent	False	NA	trees	Spruces and trees lined the path through the forest.	1136	10	36	English
+15	0.72	NA	NA	NA	off a cliff	NA	NA	1859	10	36	English
+15	0.84	superSub	frequent	False	NA	flowers	This shop sells flowers and roses.	963	10	36	English
+15	0.34	NA	NA	NA	adam and charlie	NA	NA	1733	10	36	English
+15	0.32	NA	NA	NA	nobody knew	NA	NA	860	10	36	English
+15	0.67	subSuper	infrequent	True	NA	animal	Lilly ran a waterfowl and other animal rescue operation in the small town.	1146	10	36	English
+16	0.74	subSuper	infrequent	False	NA	flowers	This shop sells daffodils and flowers.	6426	10	28	English
+16	0.86	NA	NA	NA	math textbook	NA	NA	3836	10	28	English
+16	0.82	subSuper	frequent	True	NA	animal	Lilly ran a horse and other animal rescue operation in the small town.	5132	10	28	English
+16	0.69	NA	NA	NA	adam and charlie	NA	NA	2977	10	28	English
+16	1	superSub	frequent	False	NA	scientists	The advisory panel included a number of scientists and biologists.	3699	10	28	English
+16	0.71	NA	NA	NA	nobody knew	NA	NA	3189	10	28	English
+16	0.69	subSuper	frequent	False	NA	meat	The recipe called for beef and meat to be included in the stew.	4717	10	28	English
+16	0.77	subSuper	infrequent	True	NA	doctors	At the conference there was a special informational session for anesthesiologists and other doctors.	3802	10	28	English
+16	0.15	NA	NA	NA	off a cliff	NA	NA	5657	10	28	English
+16	0.31	superSub	infrequent	False	NA	trees	Trees and spruces lined the path through the forest.	3163	10	28	English
+16	0.72	NA	NA	NA	the gopher	NA	NA	5572	10	28	English
+17	0.5	superSub	frequent	False	NA	animal	Lilly ran an animal and horse rescue operation in the small town.	5297	10	23	Englsih
+17	0.3	NA	NA	NA	off a cliff	NA	NA	3105	10	23	Englsih
+17	0.95	subSuper	infrequent	True	NA	scientists	The advisory panel included a number of paleontologists and other scientists.	3573	10	23	Englsih
+17	0.5	NA	NA	NA	adam and charlie	NA	NA	4642	10	23	Englsih
+17	0.4	NA	NA	NA	nobody knew	NA	NA	3592	10	23	Englsih
+17	0.69	subSuper	frequent	True	NA	meat	The recipe called for beef and other meat to be included in the stew.	3338	10	23	Englsih
+17	0.5	superSub	infrequent	False	NA	flowers	This shop sells flowers and daffodils.	3880	10	23	Englsih
+17	0.44	NA	NA	NA	math textbook	NA	NA	5803	10	23	Englsih
+17	0.68	subSuper	frequent	False	NA	doctors	At the conference there was a special informational session for surgeons and doctors.	7936	10	23	Englsih
+17	0.94	NA	NA	NA	the gopher	NA	NA	3224	10	23	Englsih
+17	0.23	subSuper	infrequent	False	NA	trees	Spruces and trees lined the path through the forest.	5066	10	23	Englsih
+18	0.83	subSuper	infrequent	True	NA	meat	The recipe called for veal and other meat to be included in the stew.	4159	10	36	English
+18	0.94	subSuper	frequent	True	NA	scientists	The advisory panel included a number of biologists and other scientists.	2432	10	36	English
+18	0.8	NA	NA	NA	adam and charlie	NA	NA	7593	10	36	English
+18	0.87	superSub	infrequent	False	NA	animal	Lilly ran an animal and waterfowl rescue operation in the small town.	3392	10	36	English
+18	0.62	subSuper	frequent	False	NA	doctors	At the conference there was a special informational session for surgeons and doctors.	3920	10	36	English
+18	0.73	NA	NA	NA	math textbook	NA	NA	3544	10	36	English
+18	0.11	NA	NA	NA	off a cliff	NA	NA	3984	10	36	English
+18	0.3	subSuper	infrequent	False	NA	flowers	This shop sells daffodils and flowers.	4144	10	36	English
+18	0.93	superSub	frequent	False	NA	trees	Trees and oaks lined the path through the forest.	2359	10	36	English
+18	0.64	NA	NA	NA	nobody knew	NA	NA	6592	10	36	English
+18	0.82	NA	NA	NA	the gopher	NA	NA	2367	10	36	English
+19	0.98	NA	NA	NA	the gopher	NA	NA	3806	10	34	English
+19	0.88	subSuper	infrequent	False	NA	animal	Lilly ran a waterfowl and animal rescue operation in the small town.	3387	10	34	English
+19	0.98	NA	NA	NA	adam and charlie	NA	NA	3229	10	34	English
+19	1	subSuper	infrequent	True	NA	flowers	This shop sells daffodils and other flowers.	4268	10	34	English
+19	0.99	NA	NA	NA	math textbook	NA	NA	4353	10	34	English
+19	1	NA	NA	NA	nobody knew	NA	NA	3739	10	34	English
+19	0.23	subSuper	frequent	False	NA	trees	Oaks and trees lined the path through the forest.	4267	10	34	English
+19	0.99	superSub	frequent	False	NA	doctors	At the conference there was a special informational session for doctors and surgeons.	2843	10	34	English
+19	0.99	subSuper	frequent	True	NA	scientists	The advisory panel included a number of biologists and other scientists.	273931	10	34	English
+19	0.63	superSub	infrequent	False	NA	meat	The recipe called for meat and veal to be included in the stew.	4494	10	34	English
+19	0.15	NA	NA	NA	off a cliff	NA	NA	2024	10	34	English
+20	0.95	NA	NA	NA	adam and charlie	NA	NA	4618	10	28	Englsih
+20	0.5	NA	NA	NA	off a cliff	NA	NA	3790	10	28	Englsih
+20	0.76	subSuper	infrequent	False	NA	trees	Spruces and trees lined the path through the forest.	4354	10	28	Englsih
+20	0.98	NA	NA	NA	math textbook	NA	NA	5192	10	28	Englsih
+20	0.57	superSub	frequent	False	NA	meat	The recipe called for meat and beef to be included in the stew.	4339	10	28	Englsih
+20	0.69	subSuper	infrequent	True	NA	animal	Lilly ran a waterfowl and other animal rescue operation in the small town.	5449	10	28	Englsih
+20	0.62	subSuper	frequent	True	NA	scientists	The advisory panel included a number of biologists and other scientists.	5847	10	28	Englsih
+20	0.99	subSuper	frequent	False	NA	flowers	This shop sells roses and flowers.	3629	10	28	Englsih
+20	0.92	NA	NA	NA	nobody knew	NA	NA	5627	10	28	Englsih
+20	0.5	superSub	infrequent	False	NA	doctors	At the conference there was a special informational session for doctors and anesthesiologists.	3766	10	28	Englsih
+20	0.78	NA	NA	NA	the gopher	NA	NA	2898	10	28	Englsih
+21	1	superSub	frequent	False	NA	trees	Trees and oaks lined the path through the forest.	1769	10	39	English
+21	1	subSuper	frequent	True	NA	flowers	This shop sells roses and other flowers.	1285	10	39	English
+21	1	subSuper	infrequent	True	NA	scientists	The advisory panel included a number of paleontologists and other scientists.	1852	10	39	English
+21	0.36	NA	NA	NA	off a cliff	NA	NA	4516	10	39	English
+21	1	NA	NA	NA	math textbook	NA	NA	2462	10	39	English
+21	1	NA	NA	NA	the gopher	NA	NA	1430	10	39	English
+21	1	subSuper	frequent	False	NA	meat	The recipe called for beef and meat to be included in the stew.	2194	10	39	English
+21	0.85	subSuper	infrequent	False	NA	animal	Lilly ran a waterfowl and animal rescue operation in the small town.	3041	10	39	English
+21	1	NA	NA	NA	nobody knew	NA	NA	1389	10	39	English
+21	1	NA	NA	NA	adam and charlie	NA	NA	1303	10	39	English
+21	1	superSub	infrequent	False	NA	doctors	At the conference there was a special informational session for doctors and anesthesiologists.	1546	10	39	English
+22	1	NA	NA	NA	the gopher	NA	NA	3881	10	23	English+
+22	1	subSuper	infrequent	False	NA	scientists	The advisory panel included a number of paleontologists and scientists.	10160	10	23	English+
+22	0.4	superSub	frequent	False	NA	animal	Lilly ran an animal and horse rescue operation in the small town.	14223	10	23	English+
+22	1	subSuper	frequent	False	NA	doctors	At the conference there was a special informational session for surgeons and doctors.	13665	10	23	English+
+22	0.21	NA	NA	NA	off a cliff	NA	NA	4245	10	23	English+
+22	1	NA	NA	NA	nobody knew	NA	NA	4945	10	23	English+
+22	0.86	NA	NA	NA	math textbook	NA	NA	8219	10	23	English+
+22	1	NA	NA	NA	adam and charlie	NA	NA	5241	10	23	English+
+22	0.81	subSuper	infrequent	True	NA	trees	Spruces and other trees lined the path through the forest.	7354	10	23	English+
+22	0.16	superSub	infrequent	False	NA	meat	The recipe called for meat and veal to be included in the stew.	16800	10	23	English+
+22	1	subSuper	frequent	True	NA	flowers	This shop sells roses and other flowers.	4468	10	23	English+
+23	0.64	NA	NA	NA	nobody knew	NA	NA	4851	10	31	English
+23	0.56	subSuper	infrequent	True	NA	trees	Spruces and other trees lined the path through the forest.	3361	10	31	English
+23	0.35	subSuper	infrequent	False	NA	scientists	The advisory panel included a number of paleontologists and scientists.	6185	10	31	English
+23	0.27	subSuper	frequent	True	NA	meat	The recipe called for beef and other meat to be included in the stew.	3261	10	31	English
+23	0.76	subSuper	frequent	False	NA	doctors	At the conference there was a special informational session for surgeons and doctors.	3518	10	31	English
+23	0.38	NA	NA	NA	adam and charlie	NA	NA	4122	10	31	English
+23	0.73	superSub	infrequent	False	NA	flowers	This shop sells flowers and daffodils.	25136	10	31	English
+23	0.77	NA	NA	NA	off a cliff	NA	NA	1260	10	31	English
+23	0.29	superSub	frequent	False	NA	animal	Lilly ran an animal and horse rescue operation in the small town.	1149	10	31	English
+23	0.42	NA	NA	NA	math textbook	NA	NA	854	10	31	English
+23	0.64	NA	NA	NA	the gopher	NA	NA	13319	10	31	English
+24	0.87	superSub	infrequent	False	NA	animal	Lilly ran an animal and waterfowl rescue operation in the small town.	6665	10	39	English
+24	0.92	NA	NA	NA	math textbook	NA	NA	5809	10	39	English
+24	0.72	NA	NA	NA	off a cliff	NA	NA	2897	10	39	English
+24	0.81	subSuper	infrequent	False	NA	meat	The recipe called for veal and meat to be included in the stew.	3954	10	39	English
+24	0.84	subSuper	infrequent	True	NA	scientists	The advisory panel included a number of paleontologists and other scientists.	3594	10	39	English
+24	1	NA	NA	NA	adam and charlie	NA	NA	3986	10	39	English
+24	1	subSuper	frequent	False	NA	flowers	This shop sells roses and flowers.	2112	10	39	English
+24	1	NA	NA	NA	the gopher	NA	NA	4537	10	39	English
+24	1	NA	NA	NA	nobody knew	NA	NA	3368	10	39	English
+24	1	superSub	frequent	False	NA	trees	Trees and oaks lined the path through the forest.	4488	10	39	English
+24	0.9	subSuper	frequent	True	NA	doctors	At the conference there was a special informational session for surgeons and other doctors.	4457	10	39	English
+25	0.94	subSuper	infrequent	True	NA	doctors	At the conference there was a special informational session for anesthesiologists and other doctors.	6189	10	30	english
+25	0.15	NA	NA	NA	nobody knew	NA	NA	4452	10	30	english
+25	0.68	NA	NA	NA	the gopher	NA	NA	3186	10	30	english
+25	0.18	subSuper	frequent	False	NA	meat	The recipe called for beef and meat to be included in the stew.	6649	10	30	english
+25	0.74	superSub	infrequent	False	NA	animal	Lilly ran an animal and waterfowl rescue operation in the small town.	8531	10	30	english
+25	0.63	subSuper	frequent	True	NA	trees	Oaks and other trees lined the path through the forest.	4211	10	30	english
+25	0.95	subSuper	infrequent	False	NA	flowers	This shop sells daffodils and flowers.	3552	10	30	english
+25	0.46	NA	NA	NA	math textbook	NA	NA	5398	10	30	english
+25	0.8	NA	NA	NA	adam and charlie	NA	NA	4628	10	30	english
+25	0.73	superSub	frequent	False	NA	scientists	The advisory panel included a number of scientists and biologists.	3956	10	30	english
+25	0.1	NA	NA	NA	off a cliff	NA	NA	2950	10	30	english
+26	0.98	superSub	infrequent	False	NA	scientists	The advisory panel included a number of scientists and paleontologists.	2927	10	30	english
+26	0.98	NA	NA	NA	adam and charlie	NA	NA	2784	10	30	english
+26	0.98	NA	NA	NA	the gopher	NA	NA	2153	10	30	english
+26	0.98	subSuper	frequent	False	NA	animal	Lilly ran a horse and animal rescue operation in the small town.	2160	10	30	english
+26	0.98	NA	NA	NA	math textbook	NA	NA	2408	10	30	english
+26	0.96	NA	NA	NA	nobody knew	NA	NA	2017	10	30	english
+26	0.96	subSuper	infrequent	True	NA	doctors	At the conference there was a special informational session for anesthesiologists and other doctors.	4256	10	30	english
+26	0.99	subSuper	infrequent	False	NA	meat	The recipe called for veal and meat to be included in the stew.	1632	10	30	english
+26	0.96	superSub	frequent	False	NA	trees	Trees and oaks lined the path through the forest.	1439	10	30	english
+26	0.64	NA	NA	NA	off a cliff	NA	NA	4513	10	30	english
+26	0.94	subSuper	frequent	True	NA	flowers	This shop sells roses and other flowers.	1480	10	30	english
+27	0.87	superSub	infrequent	False	NA	trees	Trees and spruces lined the path through the forest.	28911	10	32	English+
+27	0.97	NA	NA	NA	off a cliff	NA	NA	3445	10	32	English+
+27	0.98	NA	NA	NA	the gopher	NA	NA	3204	10	32	English+
+27	0.07	NA	NA	NA	math textbook	NA	NA	4690	10	32	English+
+27	0.96	NA	NA	NA	nobody knew	NA	NA	6857	10	32	English+
+27	0.97	NA	NA	NA	adam and charlie	NA	NA	5121	10	32	English+
+27	0.1	superSub	frequent	False	NA	meat	The recipe called for meat and beef to be included in the stew.	5082	10	32	English+
+27	0.09	subSuper	frequent	True	NA	flowers	This shop sells roses and other flowers.	3535	10	32	English+
+27	0.21	subSuper	frequent	False	NA	animal	Lilly ran a horse and animal rescue operation in the small town.	12596	10	32	English+
+27	0.04	subSuper	infrequent	False	NA	doctors	At the conference there was a special informational session for anesthesiologists and doctors.	16967	10	32	English+
+27	0.06	subSuper	infrequent	True	NA	scientists	The advisory panel included a number of paleontologists and other scientists.	3843	10	32	English+
+28	0.83	NA	NA	NA	adam and charlie	NA	NA	9632	10	41	English
+28	0.04	NA	NA	NA	off a cliff	NA	NA	8377	10	41	English
+28	0.87	NA	NA	NA	the gopher	NA	NA	5168	10	41	English
+28	0.5	subSuper	infrequent	True	NA	animal	Lilly ran a waterfowl and other animal rescue operation in the small town.	5280	10	41	English
+28	0.73	superSub	frequent	False	NA	doctors	At the conference there was a special informational session for doctors and surgeons.	7945	10	41	English
+28	0.31	subSuper	frequent	False	NA	meat	The recipe called for beef and meat to be included in the stew.	4624	10	41	English
+28	0.96	NA	NA	NA	nobody knew	NA	NA	4531	10	41	English
+28	0.48	superSub	infrequent	False	NA	trees	Trees and spruces lined the path through the forest.	7743	10	41	English
+28	0.71	subSuper	infrequent	False	NA	flowers	This shop sells daffodils and flowers.	5392	10	41	English
+28	0.97	subSuper	frequent	True	NA	scientists	The advisory panel included a number of biologists and other scientists.	5711	10	41	English
+28	0.85	NA	NA	NA	math textbook	NA	NA	5616	10	41	English
+29	0.5	subSuper	frequent	False	NA	meat	The recipe called for beef and meat to be included in the stew.	6928	10	37	english
+29	0.06	NA	NA	NA	off a cliff	NA	NA	3931	10	37	english
+29	0.77	subSuper	frequent	True	NA	flowers	This shop sells roses and other flowers.	3657	10	37	english
+29	0.85	superSub	infrequent	False	NA	scientists	The advisory panel included a number of scientists and paleontologists.	3305	10	37	english
+29	0.84	NA	NA	NA	adam and charlie	NA	NA	4849	10	37	english
+29	0.34	subSuper	infrequent	True	NA	doctors	At the conference there was a special informational session for anesthesiologists and other doctors.	4983	10	37	english
+29	0.79	NA	NA	NA	math textbook	NA	NA	3672	10	37	english
+29	0.65	superSub	frequent	False	NA	animal	Lilly ran an animal and horse rescue operation in the small town.	7541	10	37	english
+29	0.89	NA	NA	NA	the gopher	NA	NA	2850	10	37	english
+29	0.14	NA	NA	NA	nobody knew	NA	NA	5349	10	37	english
+29	0.11	subSuper	infrequent	False	NA	trees	Spruces and trees lined the path through the forest.	3526	10	37	english
