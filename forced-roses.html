@@ -1,0 +1,87 @@
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>Mindsets</title>
+    <meta name="viewport" content="initial-scale=1.0" />
+    <link rel="stylesheet" href="coco-experiment.css" />
+    <link rel="stylesheet" href="jquery-ui.css"/>
+  </head>
+  <body>
+    
+    <div class="progress">
+      <span>Progress:</span>
+      <div class="bar-wrapper">
+        <div class="bar" width="0%">
+        </div>
+      </div>
+    </div>
+    
+    <div id="experiment_content">
+      
+      <!-- ***** CONSENT SLIDE ***** -->
+      <div class="slide" id="consent">
+        <img src="stanford.png" alt="Stanford University"></img>
+        <br>
+        <br>
+        <p class="block-text">In this experiment, you will judge the accepatbility of some sentences.</p>
+  <p class="block-text">This experiment should take a couple minutes to complete.</b></p>
+        <button type="button" onClick="this.blur(); experiment.intro()">Start</button>
+        <p class="block-text">(Note: you won't be able to preview this HIT before accepting it.)</p>
+        <p class="block-text" id="mustaccept"> You must accept the HIT in order to continue.</p>
+        <p class="block-text" id="legal">By answering the following questions, you are participating in a study being performed by cognitive scientists in the Stanford Department of Psychology. If you have questions about this research, please contact Erin Bennett at
+        <a href="mailto:erindb@stanford.edu">erindb@stanford.edu</a> or Noah Goodman at ngoodman@stanford.edu. You must be at least 18 years old to participate. Your participation in this research is voluntary. You may decline to answer any or all of the following questions. You may decline further participation, at any time, without adverse consequences. Your anonymity is assured; the researchers who have requested your participation will not receive any personal information about you.</p>
+      </div>
+
+      
+      <!-- ***** EXPERIMENT INTRODUCTION ***** -->
+      <div class="slide" id="introduction">
+        <p id="introduction">In this experiment, we would like you to pick the most natural sounding sentence from the given choices.</p>
+        <button type="button" class="continue">Continue</button>
+      </div>
+      
+      <!-- ***** TRIAL ***** -->
+      <div class="slide" id="trial">
+        <p>Please choose which one of the following sentences sounds the most natural:</p>
+        
+        <p> <input type="radio" name="myradio" value="0" /> <span id="sentence0"></span> </p>
+        <p> <input type="radio" name="myradio" value="1" /> <span id="sentence1"></span> </p>
+        <p> <input type="radio" name="myradio" value="2" /> <span id="sentence2"></span> </p>
+
+        <button type="button" class="continue">Continue</button>
+
+        <p class="err">Please make a selection before continuing.</p>
+      </div> 
+
+      <!-- ***** QUESTIONNAIRE ***** -->
+      <div class="slide" id="questionnaire">
+        <p>Last section! Please enter your responses below, and then click 'Submit'.</p>
+        <br/>
+        <form id="questionaireform">
+          <p>Your age: <input type="text" name="age"></input></p>
+          <br/>
+          <p>Your native language*:<input type="text" name="lg"></input><br/>(the language that was spoken at home when you were a child)</p>
+          <br/>
+          <p>We would be interested in any comments you have about this experiment. Please type them here:</p>
+          <textarea rows="7" cols="70" name="comments"></textarea>
+          <br/><br/>
+          <button type="button" id="formsubmit">Submit</button>
+        </form>
+        <br/>
+        <p>*required</p>
+      </div>
+      
+      <!-- ***** FINAL SLIDE ***** -->
+      <div class="slide" id="finished">
+        You're finished - thanks for participating! Submitting to Mechanical Turk...
+      </div>
+      
+    </div>
+    
+    <!-- run scripts -->
+    <script src="jquery.min.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <script src="mmturkey.js"></script>
+    <script src="browserCheck.js"></script>
+    <script src="forced-roses.js"></script>
+    
+  </body>
