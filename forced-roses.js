@@ -62,40 +62,67 @@ function range(start, end)
 var randomization = {
   versions: shuffle([
     [
-      {order:"superSub", hasOther:false, label:"Ss"},
-      {order:"subSuper", hasOther:true, label:"other"},
-      {order:"subSuper", hasOther:false, label:"sS"}
+      {type:"target", order:"superSub", hasOther:false, label:"Ss"},
+      {type:"target", order:"subSuper", hasOther:true, label:"other"},
+      {type:"target", order:"subSuper", hasOther:false, label:"sS"}
     ],
     [
-      {order:"superSub", hasOther:false, label:"Ss"},
-      {order:"subSuper", hasOther:false, label:"sS"},
-      {order:"subSuper", hasOther:true, label:"other"}
+      {type:"target", order:"superSub", hasOther:false, label:"Ss"},
+      {type:"target", order:"subSuper", hasOther:false, label:"sS"},
+      {type:"target", order:"subSuper", hasOther:true, label:"other"}
     ],
     [
-      {order:"subSuper", hasOther:true, label:"other"},
-      {order:"superSub", hasOther:false, label:"Ss"},
-      {order:"subSuper", hasOther:false, label:"sS"}
+      {type:"target", order:"subSuper", hasOther:true, label:"other"},
+      {type:"target", order:"superSub", hasOther:false, label:"Ss"},
+      {type:"target", order:"subSuper", hasOther:false, label:"sS"}
     ],
     [
-      {order:"subSuper", hasOther:false, label:"sS"},
-      {order:"superSub", hasOther:false, label:"Ss"},
-      {order:"subSuper", hasOther:true, label:"other"}
+      {type:"target", order:"subSuper", hasOther:false, label:"sS"},
+      {type:"target", order:"superSub", hasOther:false, label:"Ss"},
+      {type:"target", order:"subSuper", hasOther:true, label:"other"}
     ],
     [
-      {order:"subSuper", hasOther:true, label:"other"},
-      {order:"subSuper", hasOther:false, label:"sS"},
-      {order:"superSub", hasOther:false, label:"Ss"}
+      {type:"target", order:"subSuper", hasOther:true, label:"other"},
+      {type:"target", order:"subSuper", hasOther:false, label:"sS"},
+      {type:"target", order:"superSub", hasOther:false, label:"Ss"}
     ],
     [
-      {order:"subSuper", hasOther:false, label:"sS"},
-      {order:"subSuper", hasOther:true, label:"other"},
-      {order:"superSub", hasOther:false, label:"Ss"}
-    ]
+      {type:"target", order:"subSuper", hasOther:false, label:"sS"},
+      {type:"target", order:"subSuper", hasOther:true, label:"other"},
+      {type:"target", order:"superSub", hasOther:false, label:"Ss"}
+    ],
+    shuffle([
+      {type:"filler", sentence:"Off a cliff sprang the giddy driver.", label:"cliff"},
+      {type:"filler", sentence:"The giddy driver sprang off a cliff.", label:"cliffA"},
+      {type:"filler", sentence:"Off a cliff the giddy driver sprang.", label:"cliffB"}
+    ]),
+    shuffle([
+      {type:"filler", sentence:"The gopher dug a tunnel underneath the fence.", label:"gopher"},
+      {type:"filler", sentence:"As for the gopher, it dug a tunnel underneath the fence.", label:"gopherA"},
+      {type:"filler", sentence:"Underneath the fence the gopher dug a tunnel.", label:"gopherB"}
+    ]),
+    shuffle([
+      {type:"filler", sentence:"A math textbook and a spiral notebook were lying on the kitchen table.", label:"math"},
+      {type:"filler", sentence:"A math textbook and a spiral notebook lay on the kitchen table.", label:"mathA"},
+      {type:"filler", sentence:"A math textbook and a spiral notebook were on the kitchen table.", label:"mathB"}
+    ]),
+    shuffle([
+      {type:"filler", sentence:"Adam and Charlie liked to play cops and robbers together when they were little.", label:"adam"},
+      {type:"filler", sentence:"When they were little, Adam and Charlie liked to play cops and robbers together.", label:"adamA"},
+      {type:"filler", sentence:"Together Adam and Charlie liked to play cops and robbers when they were little.", label:"adamB"}
+    ]),
+    shuffle([
+      {type:"filler", sentence:"Nobody knew the solution to any of the logic puzzles in the book.", label:"puzzles"},
+      {type:"filler", sentence:"As for the logic puzzles in the book, nobody knew the solution to any of them.", label:"puzzlesA"},
+      {type:"filler", sentence:"Nobody could solve any of the logic puzzles in the book.", label:"puzzlesB"}
+    ])
   ]),
   items: shuffle(["flowers", "scientists", "doctors", "animal", "trees", "meat"])
 };
 
 n_trials = randomization.versions.length;
+
+n_targets_completed = 0;
 
 $(document).ready(function() {
   showSlide("consent");
@@ -121,19 +148,30 @@ var experiment = {
     $(".err").hide();
     showSlide("trial");
 
-    var versions = randomization.versions[q_number]
-    var item = randomization.items[q_number]
+    var versions = randomization.versions[q_number];
 
-    console.log(versions);
-    console.log(item);
+    if (versions[0].type == "target") {
+      var item = randomization.items[n_targets_completed];
 
-    var response_data = {
-      "item":item,
-    };
+      var response_data = {
+        "item":item,
+        "type":"target"
+      };
 
-    $("#sentence0").html(targets[item].sentence(versions[0]));
-    $("#sentence1").html(targets[item].sentence(versions[1]));
-    $("#sentence2").html(targets[item].sentence(versions[2]));
+      $("#sentence0").html(targets[item].sentence(versions[0]));
+      $("#sentence1").html(targets[item].sentence(versions[1]));
+      $("#sentence2").html(targets[item].sentence(versions[2]));
+
+      n_targets_completed++
+    } else {
+      var response_data = {
+        "type":"filler",
+        "item":"NA",
+      };
+      $("#sentence0").html(versions[0].sentence);
+      $("#sentence1").html(versions[1].sentence);
+      $("#sentence2").html(versions[2].sentence);
+    }
 
     var choice = null;
     $('input:radio[name=myradio]').click(function() {
