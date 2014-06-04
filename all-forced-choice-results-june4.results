@@ -1,0 +1,881 @@
+subject	trial_type	item	response	age	duration	language	comments	freq
+224	filler	NA	adamA	43	139775	ENGLISH		frequent
+224	filler	NA	mathB	43	139775	ENGLISH		frequent
+224	target	flowers	other	43	139775	ENGLISH		frequent
+224	target	trees	other	43	139775	ENGLISH		frequent
+224	filler	NA	puzzlesB	43	139775	ENGLISH		frequent
+224	target	doctors	Ss	43	139775	ENGLISH		frequent
+224	target	animal	sS	43	139775	ENGLISH		frequent
+224	filler	NA	gopher	43	139775	ENGLISH		frequent
+224	target	meat	other	43	139775	ENGLISH		frequent
+224	target	scientists	other	43	139775	ENGLISH		frequent
+224	filler	NA	cliffA	43	139775	ENGLISH		frequent
+225	filler	NA	adamA	46	180436	English		frequent
+225	target	flowers	other	46	180436	English		frequent
+225	filler	NA	mathB	46	180436	English		frequent
+225	target	trees	other	46	180436	English		frequent
+225	filler	NA	puzzlesB	46	180436	English		frequent
+225	target	meat	sS	46	180436	English		frequent
+225	filler	NA	cliffA	46	180436	English		frequent
+225	filler	NA	gopher	46	180436	English		frequent
+225	target	animal	sS	46	180436	English		frequent
+225	target	scientists	other	46	180436	English		frequent
+225	target	doctors	Ss	46	180436	English		frequent
+226	target	animal	sS	33	242489	english	Thank+you	frequent
+226	target	flowers	other	33	242489	english	Thank+you	frequent
+226	filler	NA	adam	33	242489	english	Thank+you	frequent
+226	target	trees	other	33	242489	english	Thank+you	frequent
+226	filler	NA	mathB	33	242489	english	Thank+you	frequent
+226	target	doctors	other	33	242489	english	Thank+you	frequent
+226	filler	NA	gopher	33	242489	english	Thank+you	frequent
+226	target	scientists	other	33	242489	english	Thank+you	frequent
+226	target	meat	other	33	242489	english	Thank+you	frequent
+226	filler	NA	cliffA	33	242489	english	Thank+you	frequent
+226	filler	NA	puzzlesB	33	242489	english	Thank+you	frequent
+227	target	doctors	Ss	32	226461	English	interesting+experiment%2C+thanks!+	frequent
+227	filler	NA	math	32	226461	English	interesting+experiment%2C+thanks!+	frequent
+227	target	animal	Ss	32	226461	English	interesting+experiment%2C+thanks!+	frequent
+227	target	scientists	Ss	32	226461	English	interesting+experiment%2C+thanks!+	frequent
+227	filler	NA	puzzlesB	32	226461	English	interesting+experiment%2C+thanks!+	frequent
+227	target	flowers	other	32	226461	English	interesting+experiment%2C+thanks!+	frequent
+227	target	meat	other	32	226461	English	interesting+experiment%2C+thanks!+	frequent
+227	filler	NA	adam	32	226461	English	interesting+experiment%2C+thanks!+	frequent
+227	filler	NA	gopher	32	226461	English	interesting+experiment%2C+thanks!+	frequent
+227	target	trees	other	32	226461	English	interesting+experiment%2C+thanks!+	frequent
+227	filler	NA	cliffA	32	226461	English	interesting+experiment%2C+thanks!+	frequent
+228	filler	NA	adamA	24	139686	English		frequent
+228	target	scientists	Ss	24	139686	English		frequent
+228	target	doctors	sS	24	139686	English		frequent
+228	filler	NA	cliffA	24	139686	English		frequent
+228	target	flowers	Ss	24	139686	English		frequent
+228	filler	NA	gopher	24	139686	English		frequent
+228	target	trees	Ss	24	139686	English		frequent
+228	target	animal	sS	24	139686	English		frequent
+228	target	meat	other	24	139686	English		frequent
+228	filler	NA	puzzlesB	24	139686	English		frequent
+228	filler	NA	math	24	139686	English		frequent
+229	target	scientists	other	21	817257	English		frequent
+229	target	animal	other	21	817257	English		frequent
+229	target	doctors	sS	21	817257	English		frequent
+229	filler	NA	mathB	21	817257	English		frequent
+229	target	meat	other	21	817257	English		frequent
+229	target	trees	other	21	817257	English		frequent
+229	target	flowers	other	21	817257	English		frequent
+229	filler	NA	adam	21	817257	English		frequent
+229	filler	NA	cliffA	21	817257	English		frequent
+229	filler	NA	gopher	21	817257	English		frequent
+229	filler	NA	puzzlesB	21	817257	English		frequent
+230	target	scientists	other	61	159352	english		frequent
+230	filler	NA	adam	61	159352	english		frequent
+230	target	meat	other	61	159352	english		frequent
+230	target	animal	other	61	159352	english		frequent
+230	target	flowers	other	61	159352	english		frequent
+230	filler	NA	gopher	61	159352	english		frequent
+230	filler	NA	cliffA	61	159352	english		frequent
+230	target	trees	other	61	159352	english		frequent
+230	filler	NA	puzzles	61	159352	english		frequent
+230	filler	NA	mathB	61	159352	english		frequent
+230	target	doctors	other	61	159352	english		frequent
+231	filler	NA	puzzlesB	30	188842	English		frequent
+231	filler	NA	gopher	30	188842	English		frequent
+231	target	scientists	sS	30	188842	English		frequent
+231	target	flowers	other	30	188842	English		frequent
+231	target	animal	other	30	188842	English		frequent
+231	target	trees	other	30	188842	English		frequent
+231	filler	NA	adamA	30	188842	English		frequent
+231	filler	NA	math	30	188842	English		frequent
+231	target	meat	other	30	188842	English		frequent
+231	filler	NA	cliffA	30	188842	English		frequent
+231	target	doctors	other	30	188842	English		frequent
+33	filler	NA	math	23	121850	English		frequent
+33	filler	NA	cliffA	23	121850	English		frequent
+33	target	trees	other	23	121850	English		frequent
+33	target	animal	other	23	121850	English		frequent
+33	target	scientists	other	23	121850	English		frequent
+33	filler	NA	puzzlesB	23	121850	English		frequent
+33	target	meat	other	23	121850	English		frequent
+33	target	flowers	other	23	121850	English		frequent
+33	filler	NA	adamA	23	121850	English		frequent
+33	target	doctors	Ss	23	121850	English		frequent
+33	filler	NA	gopher	23	121850	English		frequent
+232	target	animal	other	27	128863	English		frequent
+232	target	scientists	other	27	128863	English		frequent
+232	target	trees	other	27	128863	English		frequent
+232	filler	NA	puzzlesB	27	128863	English		frequent
+232	target	doctors	other	27	128863	English		frequent
+232	filler	NA	gopher	27	128863	English		frequent
+232	target	flowers	other	27	128863	English		frequent
+232	target	meat	other	27	128863	English		frequent
+232	filler	NA	cliffA	27	128863	English		frequent
+232	filler	NA	adamA	27	128863	English		frequent
+232	filler	NA	mathA	27	128863	English		frequent
+233	target	doctors	Ss	46	170434	english	none	frequent
+233	target	animal	Ss	46	170434	english	none	frequent
+233	filler	NA	mathB	46	170434	english	none	frequent
+233	target	meat	Ss	46	170434	english	none	frequent
+233	target	trees	other	46	170434	english	none	frequent
+233	target	flowers	Ss	46	170434	english	none	frequent
+233	filler	NA	adam	46	170434	english	none	frequent
+233	target	scientists	other	46	170434	english	none	frequent
+233	filler	NA	gopher	46	170434	english	none	frequent
+233	filler	NA	puzzlesB	46	170434	english	none	frequent
+233	filler	NA	cliffA	46	170434	english	none	frequent
+234	filler	NA	adamA	46	262217	English	Tell+the+giddy+driver+to+be+more+careful+around+the+cliff	frequent
+234	target	scientists	other	46	262217	English	Tell+the+giddy+driver+to+be+more+careful+around+the+cliff	frequent
+234	target	trees	other	46	262217	English	Tell+the+giddy+driver+to+be+more+careful+around+the+cliff	frequent
+234	target	flowers	other	46	262217	English	Tell+the+giddy+driver+to+be+more+careful+around+the+cliff	frequent
+234	target	animal	Ss	46	262217	English	Tell+the+giddy+driver+to+be+more+careful+around+the+cliff	frequent
+234	filler	NA	puzzlesB	46	262217	English	Tell+the+giddy+driver+to+be+more+careful+around+the+cliff	frequent
+234	target	doctors	other	46	262217	English	Tell+the+giddy+driver+to+be+more+careful+around+the+cliff	frequent
+234	filler	NA	gopher	46	262217	English	Tell+the+giddy+driver+to+be+more+careful+around+the+cliff	frequent
+234	filler	NA	cliffA	46	262217	English	Tell+the+giddy+driver+to+be+more+careful+around+the+cliff	frequent
+234	filler	NA	math	46	262217	English	Tell+the+giddy+driver+to+be+more+careful+around+the+cliff	frequent
+234	target	meat	other	46	262217	English	Tell+the+giddy+driver+to+be+more+careful+around+the+cliff	frequent
+235	filler	NA	puzzles	24	338436	ENGLISH	thank+you!!	frequent
+235	filler	NA	adamA	24	338436	ENGLISH	thank+you!!	frequent
+235	target	meat	Ss	24	338436	ENGLISH	thank+you!!	frequent
+235	target	flowers	sS	24	338436	ENGLISH	thank+you!!	frequent
+235	filler	NA	cliffA	24	338436	ENGLISH	thank+you!!	frequent
+235	target	doctors	Ss	24	338436	ENGLISH	thank+you!!	frequent
+235	target	animal	sS	24	338436	ENGLISH	thank+you!!	frequent
+235	target	scientists	other	24	338436	ENGLISH	thank+you!!	frequent
+235	filler	NA	math	24	338436	ENGLISH	thank+you!!	frequent
+235	target	trees	other	24	338436	ENGLISH	thank+you!!	frequent
+235	filler	NA	gopher	24	338436	ENGLISH	thank+you!!	frequent
+236	target	doctors	Ss	42	640719	english	Thanks	frequent
+236	filler	NA	gopher	42	640719	english	Thanks	frequent
+236	filler	NA	adam	42	640719	english	Thanks	frequent
+236	target	flowers	other	42	640719	english	Thanks	frequent
+236	target	trees	other	42	640719	english	Thanks	frequent
+236	target	meat	sS	42	640719	english	Thanks	frequent
+236	filler	NA	cliffA	42	640719	english	Thanks	frequent
+236	filler	NA	mathB	42	640719	english	Thanks	frequent
+236	target	scientists	other	42	640719	english	Thanks	frequent
+236	target	animal	sS	42	640719	english	Thanks	frequent
+236	filler	NA	puzzles	42	640719	english	Thanks	frequent
+237	target	meat	other	29	349082	english		frequent
+237	target	animal	other	29	349082	english		frequent
+237	filler	NA	puzzlesB	29	349082	english		frequent
+237	filler	NA	gopher	29	349082	english		frequent
+237	target	flowers	other	29	349082	english		frequent
+237	target	trees	other	29	349082	english		frequent
+237	target	doctors	other	29	349082	english		frequent
+237	filler	NA	cliffA	29	349082	english		frequent
+237	filler	NA	mathB	29	349082	english		frequent
+237	target	scientists	other	29	349082	english		frequent
+237	filler	NA	adam	29	349082	english		frequent
+238	filler	NA	puzzlesB	31	146930	english		frequent
+238	target	meat	other	31	146930	english		frequent
+238	target	flowers	other	31	146930	english		frequent
+238	filler	NA	mathB	31	146930	english		frequent
+238	target	doctors	other	31	146930	english		frequent
+238	filler	NA	gopher	31	146930	english		frequent
+238	target	scientists	other	31	146930	english		frequent
+238	target	trees	other	31	146930	english		frequent
+238	filler	NA	adam	31	146930	english		frequent
+238	target	animal	sS	31	146930	english		frequent
+238	filler	NA	cliffA	31	146930	english		frequent
+239	filler	NA	gopher	23	129599	English		frequent
+239	filler	NA	adam	23	129599	English		frequent
+239	filler	NA	cliffA	23	129599	English		frequent
+239	target	doctors	Ss	23	129599	English		frequent
+239	target	flowers	other	23	129599	English		frequent
+239	filler	NA	puzzlesB	23	129599	English		frequent
+239	target	scientists	other	23	129599	English		frequent
+239	target	meat	other	23	129599	English		frequent
+239	target	trees	other	23	129599	English		frequent
+239	target	animal	other	23	129599	English		frequent
+239	filler	NA	math	23	129599	English		frequent
+240	filler	NA	puzzlesB	33	144243	english		frequent
+240	filler	NA	mathB	33	144243	english		frequent
+240	target	flowers	sS	33	144243	english		frequent
+240	target	meat	Ss	33	144243	english		frequent
+240	target	trees	sS	33	144243	english		frequent
+240	target	scientists	sS	33	144243	english		frequent
+240	filler	NA	adamA	33	144243	english		frequent
+240	filler	NA	gopher	33	144243	english		frequent
+240	target	doctors	sS	33	144243	english		frequent
+240	filler	NA	cliffA	33	144243	english		frequent
+240	target	animal	Ss	33	144243	english		frequent
+241	filler	NA	puzzlesB	24	95082	chinese		frequent
+241	filler	NA	cliffA	24	95082	chinese		frequent
+241	filler	NA	adamA	24	95082	chinese		frequent
+241	target	flowers	sS	24	95082	chinese		frequent
+241	filler	NA	mathA	24	95082	chinese		frequent
+241	filler	NA	gopher	24	95082	chinese		frequent
+241	target	meat	Ss	24	95082	chinese		frequent
+241	target	doctors	sS	24	95082	chinese		frequent
+241	target	trees	other	24	95082	chinese		frequent
+241	target	scientists	other	24	95082	chinese		frequent
+241	target	animal	sS	24	95082	chinese		frequent
+242	target	scientists	Ss	30	1005508	english		frequent
+242	target	trees	other	30	1005508	english		frequent
+242	filler	NA	gopher	30	1005508	english		frequent
+242	target	animal	sS	30	1005508	english		frequent
+242	target	meat	other	30	1005508	english		frequent
+242	filler	NA	mathA	30	1005508	english		frequent
+242	filler	NA	puzzlesA	30	1005508	english		frequent
+242	target	doctors	Ss	30	1005508	english		frequent
+242	target	flowers	Ss	30	1005508	english		frequent
+242	filler	NA	adamA	30	1005508	english		frequent
+242	filler	NA	cliffA	30	1005508	english		frequent
+243	target	animal	sS	43	202971	English		frequent
+243	filler	NA	gopher	43	202971	English		frequent
+243	target	doctors	Ss	43	202971	English		frequent
+243	target	scientists	other	43	202971	English		frequent
+243	filler	NA	math	43	202971	English		frequent
+243	target	meat	other	43	202971	English		frequent
+243	target	flowers	other	43	202971	English		frequent
+243	filler	NA	cliffA	43	202971	English		frequent
+243	target	trees	other	43	202971	English		frequent
+243	filler	NA	puzzlesB	43	202971	English		frequent
+243	filler	NA	adamA	43	202971	English		frequent
+244	target	scientists	other	23	190047	English		frequent
+244	filler	NA	cliffA	23	190047	English		frequent
+244	target	trees	other	23	190047	English		frequent
+244	target	flowers	other	23	190047	English		frequent
+244	filler	NA	gopher	23	190047	English		frequent
+244	target	animal	sS	23	190047	English		frequent
+244	target	doctors	other	23	190047	English		frequent
+244	filler	NA	adamA	23	190047	English		frequent
+244	target	meat	other	23	190047	English		frequent
+244	filler	NA	math	23	190047	English		frequent
+244	filler	NA	puzzlesB	23	190047	English		frequent
+245	filler	NA	cliffA	27	104760	english		frequent
+245	filler	NA	gopher	27	104760	english		frequent
+245	filler	NA	adam	27	104760	english		frequent
+245	target	animal	sS	27	104760	english		frequent
+245	target	flowers	Ss	27	104760	english		frequent
+245	filler	NA	mathB	27	104760	english		frequent
+245	filler	NA	puzzlesB	27	104760	english		frequent
+245	target	meat	other	27	104760	english		frequent
+245	target	doctors	Ss	27	104760	english		frequent
+245	target	trees	sS	27	104760	english		frequent
+245	target	scientists	Ss	27	104760	english		frequent
+246	target	meat	other	44	166748	english		frequent
+246	filler	NA	cliffA	44	166748	english		frequent
+246	target	animal	sS	44	166748	english		frequent
+246	target	flowers	other	44	166748	english		frequent
+246	filler	NA	mathB	44	166748	english		frequent
+246	target	doctors	Ss	44	166748	english		frequent
+246	filler	NA	adamA	44	166748	english		frequent
+246	filler	NA	gopher	44	166748	english		frequent
+246	target	scientists	Ss	44	166748	english		frequent
+246	filler	NA	puzzles	44	166748	english		frequent
+246	target	trees	Ss	44	166748	english		frequent
+247	filler	NA	math	24	327197	English	I+enjoyed+participating+in+this+experiment!	frequent
+247	target	trees	other	24	327197	English	I+enjoyed+participating+in+this+experiment!	frequent
+247	target	animal	sS	24	327197	English	I+enjoyed+participating+in+this+experiment!	frequent
+247	target	flowers	other	24	327197	English	I+enjoyed+participating+in+this+experiment!	frequent
+247	target	scientists	other	24	327197	English	I+enjoyed+participating+in+this+experiment!	frequent
+247	filler	NA	puzzles	24	327197	English	I+enjoyed+participating+in+this+experiment!	frequent
+247	filler	NA	gopher	24	327197	English	I+enjoyed+participating+in+this+experiment!	frequent
+247	filler	NA	cliffA	24	327197	English	I+enjoyed+participating+in+this+experiment!	frequent
+247	target	doctors	other	24	327197	English	I+enjoyed+participating+in+this+experiment!	frequent
+247	target	meat	other	24	327197	English	I+enjoyed+participating+in+this+experiment!	frequent
+247	filler	NA	adam	24	327197	English	I+enjoyed+participating+in+this+experiment!	frequent
+248	target	scientists	other	28	125414	English		frequent
+248	filler	NA	cliffA	28	125414	English		frequent
+248	filler	NA	puzzlesB	28	125414	English		frequent
+248	filler	NA	mathA	28	125414	English		frequent
+248	target	meat	other	28	125414	English		frequent
+248	target	flowers	other	28	125414	English		frequent
+248	filler	NA	gopher	28	125414	English		frequent
+248	target	doctors	other	28	125414	English		frequent
+248	target	animal	other	28	125414	English		frequent
+248	target	trees	other	28	125414	English		frequent
+248	filler	NA	adamA	28	125414	English		frequent
+249	filler	NA	cliffA	31	195597	English	I+enjoyed+it	frequent
+249	target	meat	other	31	195597	English	I+enjoyed+it	frequent
+249	filler	NA	adamA	31	195597	English	I+enjoyed+it	frequent
+249	filler	NA	puzzlesA	31	195597	English	I+enjoyed+it	frequent
+249	target	trees	other	31	195597	English	I+enjoyed+it	frequent
+249	target	scientists	other	31	195597	English	I+enjoyed+it	frequent
+249	target	flowers	other	31	195597	English	I+enjoyed+it	frequent
+249	filler	NA	math	31	195597	English	I+enjoyed+it	frequent
+249	target	animal	other	31	195597	English	I+enjoyed+it	frequent
+249	filler	NA	gopher	31	195597	English	I+enjoyed+it	frequent
+249	target	doctors	other	31	195597	English	I+enjoyed+it	frequent
+250	target	scientists	Ss	23	90271	English		frequent
+250	filler	NA	gopher	23	90271	English		frequent
+250	target	meat	Ss	23	90271	English		frequent
+250	filler	NA	adamA	23	90271	English		frequent
+250	filler	NA	puzzlesA	23	90271	English		frequent
+250	target	trees	other	23	90271	English		frequent
+250	filler	NA	mathA	23	90271	English		frequent
+250	target	doctors	other	23	90271	English		frequent
+250	filler	NA	cliffA	23	90271	English		frequent
+250	target	animal	other	23	90271	English		frequent
+250	target	flowers	other	23	90271	English		frequent
+251	target	animal	sS	49	185541	English	Everything+works+well+in+the+study+	frequent
+251	filler	NA	puzzlesB	49	185541	English	Everything+works+well+in+the+study+	frequent
+251	filler	NA	cliffA	49	185541	English	Everything+works+well+in+the+study+	frequent
+251	target	scientists	other	49	185541	English	Everything+works+well+in+the+study+	frequent
+251	filler	NA	adam	49	185541	English	Everything+works+well+in+the+study+	frequent
+251	filler	NA	gopher	49	185541	English	Everything+works+well+in+the+study+	frequent
+251	filler	NA	math	49	185541	English	Everything+works+well+in+the+study+	frequent
+251	target	meat	other	49	185541	English	Everything+works+well+in+the+study+	frequent
+251	target	doctors	other	49	185541	English	Everything+works+well+in+the+study+	frequent
+251	target	trees	other	49	185541	English	Everything+works+well+in+the+study+	frequent
+251	target	flowers	other	49	185541	English	Everything+works+well+in+the+study+	frequent
+143	target	animal	Ss	47	100957	English		frequent
+143	target	meat	sS	47	100957	English		frequent
+143	target	flowers	other	47	100957	English		frequent
+143	filler	NA	cliffA	47	100957	English		frequent
+143	filler	NA	gopher	47	100957	English		frequent
+143	target	trees	other	47	100957	English		frequent
+143	filler	NA	puzzlesB	47	100957	English		frequent
+143	filler	NA	mathB	47	100957	English		frequent
+143	target	doctors	other	47	100957	English		frequent
+143	filler	NA	adamA	47	100957	English		frequent
+143	target	scientists	other	47	100957	English		frequent
+34	target	trees	sS	28	129833	English		frequent
+34	target	scientists	other	28	129833	English		frequent
+34	target	flowers	other	28	129833	English		frequent
+34	filler	NA	adam	28	129833	English		frequent
+34	target	doctors	Ss	28	129833	English		frequent
+34	filler	NA	mathB	28	129833	English		frequent
+34	filler	NA	puzzlesB	28	129833	English		frequent
+34	filler	NA	cliffA	28	129833	English		frequent
+34	filler	NA	gopher	28	129833	English		frequent
+34	target	animal	sS	28	129833	English		frequent
+34	target	meat	other	28	129833	English		frequent
+252	target	trees	other	22	194201	English		frequent
+252	target	scientists	other	22	194201	English		frequent
+252	target	animal	sS	22	194201	English		frequent
+252	filler	NA	cliffA	22	194201	English		frequent
+252	target	meat	sS	22	194201	English		frequent
+252	target	doctors	Ss	22	194201	English		frequent
+252	filler	NA	gopher	22	194201	English		frequent
+252	filler	NA	adamA	22	194201	English		frequent
+252	filler	NA	puzzlesB	22	194201	English		frequent
+252	target	flowers	Ss	22	194201	English		frequent
+252	filler	NA	mathB	22	194201	English		frequent
+253	filler	NA	adamA	33	125167	English	%3B)	frequent
+253	target	animal	sS	33	125167	English	%3B)	frequent
+253	filler	NA	cliffA	33	125167	English	%3B)	frequent
+253	target	meat	other	33	125167	English	%3B)	frequent
+253	filler	NA	mathB	33	125167	English	%3B)	frequent
+253	target	flowers	Ss	33	125167	English	%3B)	frequent
+253	target	scientists	Ss	33	125167	English	%3B)	frequent
+253	target	doctors	other	33	125167	English	%3B)	frequent
+253	filler	NA	puzzlesB	33	125167	English	%3B)	frequent
+253	filler	NA	gopher	33	125167	English	%3B)	frequent
+253	target	trees	other	33	125167	English	%3B)	frequent
+103	filler	NA	cliff	27	126159	english	thx	frequent
+103	target	scientists	other	27	126159	english	thx	frequent
+103	filler	NA	mathB	27	126159	english	thx	frequent
+103	filler	NA	gopher	27	126159	english	thx	frequent
+103	filler	NA	puzzlesB	27	126159	english	thx	frequent
+103	filler	NA	adam	27	126159	english	thx	frequent
+103	target	meat	Ss	27	126159	english	thx	frequent
+103	target	trees	other	27	126159	english	thx	frequent
+103	target	doctors	sS	27	126159	english	thx	frequent
+103	target	animal	Ss	27	126159	english	thx	frequent
+103	target	flowers	other	27	126159	english	thx	frequent
+254	target	animal	sS	26	191605	English		frequent
+254	target	meat	Ss	26	191605	English		frequent
+254	target	trees	Ss	26	191605	English		frequent
+254	filler	NA	gopherB	26	191605	English		frequent
+254	target	scientists	sS	26	191605	English		frequent
+254	target	flowers	other	26	191605	English		frequent
+254	filler	NA	adamA	26	191605	English		frequent
+254	filler	NA	cliffA	26	191605	English		frequent
+254	filler	NA	puzzlesB	26	191605	English		frequent
+254	filler	NA	math	26	191605	English		frequent
+254	target	doctors	Ss	26	191605	English		frequent
+255	target	doctors	Ss	27	126481	English	Thank+you!	frequent
+255	filler	NA	gopher	27	126481	English	Thank+you!	frequent
+255	filler	NA	puzzlesB	27	126481	English	Thank+you!	frequent
+255	filler	NA	cliffA	27	126481	English	Thank+you!	frequent
+255	filler	NA	mathB	27	126481	English	Thank+you!	frequent
+255	target	trees	other	27	126481	English	Thank+you!	frequent
+255	filler	NA	adamA	27	126481	English	Thank+you!	frequent
+255	target	animal	sS	27	126481	English	Thank+you!	frequent
+255	target	flowers	other	27	126481	English	Thank+you!	frequent
+255	target	scientists	sS	27	126481	English	Thank+you!	frequent
+255	target	meat	other	27	126481	English	Thank+you!	frequent
+256	filler	NA	gopher	25	233701	English	No+comments	frequent
+256	filler	NA	mathB	25	233701	English	No+comments	frequent
+256	filler	NA	puzzlesB	25	233701	English	No+comments	frequent
+256	filler	NA	cliffA	25	233701	English	No+comments	frequent
+256	target	meat	other	25	233701	English	No+comments	frequent
+256	target	trees	other	25	233701	English	No+comments	frequent
+256	target	animal	sS	25	233701	English	No+comments	frequent
+256	filler	NA	adamA	25	233701	English	No+comments	frequent
+256	target	scientists	sS	25	233701	English	No+comments	frequent
+256	target	doctors	Ss	25	233701	English	No+comments	frequent
+256	target	flowers	other	25	233701	English	No+comments	frequent
+257	target	animal	Ss	30	176812	English		frequent
+257	filler	NA	mathB	30	176812	English		frequent
+257	filler	NA	adamA	30	176812	English		frequent
+257	target	flowers	other	30	176812	English		frequent
+257	target	trees	other	30	176812	English		frequent
+257	target	scientists	other	30	176812	English		frequent
+257	filler	NA	cliffA	30	176812	English		frequent
+257	target	meat	other	30	176812	English		frequent
+257	target	doctors	Ss	30	176812	English		frequent
+257	filler	NA	puzzlesB	30	176812	English		frequent
+257	filler	NA	gopher	30	176812	English		frequent
+258	target	meat	other	35	78383	English		frequent
+258	filler	NA	mathB	35	78383	English		frequent
+258	target	flowers	Ss	35	78383	English		frequent
+258	target	doctors	other	35	78383	English		frequent
+258	filler	NA	gopher	35	78383	English		frequent
+258	filler	NA	cliffA	35	78383	English		frequent
+258	target	scientists	sS	35	78383	English		frequent
+258	filler	NA	puzzlesB	35	78383	English		frequent
+258	target	trees	other	35	78383	English		frequent
+258	filler	NA	adamA	35	78383	English		frequent
+258	target	animal	Ss	35	78383	English		frequent
+259	target	meat	other	28	159865	English		frequent
+259	target	flowers	other	28	159865	English		frequent
+259	target	doctors	other	28	159865	English		frequent
+259	filler	NA	cliffA	28	159865	English		frequent
+259	target	scientists	other	28	159865	English		frequent
+259	filler	NA	mathA	28	159865	English		frequent
+259	target	trees	other	28	159865	English		frequent
+259	filler	NA	puzzlesB	28	159865	English		frequent
+259	filler	NA	gopher	28	159865	English		frequent
+259	target	animal	other	28	159865	English		frequent
+259	filler	NA	adam	28	159865	English		frequent
+260	target	doctors	sS	31	133023	english	none	infrequent
+260	filler	NA	puzzlesB	31	133023	english	none	infrequent
+260	filler	NA	gopher	31	133023	english	none	infrequent
+260	target	flowers	other	31	133023	english	none	infrequent
+260	target	trees	other	31	133023	english	none	infrequent
+260	target	animal	Ss	31	133023	english	none	infrequent
+260	filler	NA	adamA	31	133023	english	none	infrequent
+260	target	scientists	sS	31	133023	english	none	infrequent
+260	target	meat	Ss	31	133023	english	none	infrequent
+260	filler	NA	cliffA	31	133023	english	none	infrequent
+260	filler	NA	mathB	31	133023	english	none	infrequent
+261	target	meat	other	26	195128	English		infrequent
+261	filler	NA	mathB	26	195128	English		infrequent
+261	filler	NA	adam	26	195128	English		infrequent
+261	target	doctors	Ss	26	195128	English		infrequent
+261	filler	NA	gopher	26	195128	English		infrequent
+261	target	scientists	sS	26	195128	English		infrequent
+261	target	flowers	Ss	26	195128	English		infrequent
+261	target	animal	other	26	195128	English		infrequent
+261	target	trees	other	26	195128	English		infrequent
+261	filler	NA	cliffA	26	195128	English		infrequent
+261	filler	NA	puzzles	26	195128	English		infrequent
+262	filler	NA	puzzlesB	28	124948	English		infrequent
+262	filler	NA	gopher	28	124948	English		infrequent
+262	target	animal	other	28	124948	English		infrequent
+262	filler	NA	cliffA	28	124948	English		infrequent
+262	target	flowers	other	28	124948	English		infrequent
+262	filler	NA	mathA	28	124948	English		infrequent
+262	target	meat	other	28	124948	English		infrequent
+262	filler	NA	adamA	28	124948	English		infrequent
+262	target	trees	other	28	124948	English		infrequent
+262	target	doctors	Ss	28	124948	English		infrequent
+262	target	scientists	Ss	28	124948	English		infrequent
+73	target	animal	Ss	27	116841	English	none	infrequent
+73	target	trees	other	27	116841	English	none	infrequent
+73	target	meat	other	27	116841	English	none	infrequent
+73	filler	NA	puzzlesA	27	116841	English	none	infrequent
+73	filler	NA	mathB	27	116841	English	none	infrequent
+73	filler	NA	gopher	27	116841	English	none	infrequent
+73	target	flowers	other	27	116841	English	none	infrequent
+73	target	doctors	Ss	27	116841	English	none	infrequent
+73	target	scientists	other	27	116841	English	none	infrequent
+73	filler	NA	adamA	27	116841	English	none	infrequent
+73	filler	NA	cliffA	27	116841	English	none	infrequent
+263	target	flowers	other	23	127655	English	Thank+you!	infrequent
+263	filler	NA	adamA	23	127655	English	Thank+you!	infrequent
+263	target	trees	other	23	127655	English	Thank+you!	infrequent
+263	target	animal	other	23	127655	English	Thank+you!	infrequent
+263	target	scientists	other	23	127655	English	Thank+you!	infrequent
+263	filler	NA	math	23	127655	English	Thank+you!	infrequent
+263	filler	NA	gopher	23	127655	English	Thank+you!	infrequent
+263	filler	NA	cliffA	23	127655	English	Thank+you!	infrequent
+263	target	doctors	other	23	127655	English	Thank+you!	infrequent
+263	filler	NA	puzzles	23	127655	English	Thank+you!	infrequent
+263	target	meat	other	23	127655	English	Thank+you!	infrequent
+76	filler	NA	puzzles	31	88533	English	no	infrequent
+76	target	animal	other	31	88533	English	no	infrequent
+76	filler	NA	mathA	31	88533	English	no	infrequent
+76	target	flowers	other	31	88533	English	no	infrequent
+76	target	doctors	other	31	88533	English	no	infrequent
+76	filler	NA	adam	31	88533	English	no	infrequent
+76	filler	NA	gopher	31	88533	English	no	infrequent
+76	filler	NA	cliffA	31	88533	English	no	infrequent
+76	target	scientists	other	31	88533	English	no	infrequent
+76	target	meat	other	31	88533	English	no	infrequent
+76	target	trees	other	31	88533	English	no	infrequent
+264	filler	NA	gopher	24	118042	English		infrequent
+264	target	flowers	other	24	118042	English		infrequent
+264	target	scientists	Ss	24	118042	English		infrequent
+264	target	animal	Ss	24	118042	English		infrequent
+264	target	meat	other	24	118042	English		infrequent
+264	filler	NA	puzzlesB	24	118042	English		infrequent
+264	target	doctors	sS	24	118042	English		infrequent
+264	target	trees	sS	24	118042	English		infrequent
+264	filler	NA	math	24	118042	English		infrequent
+264	filler	NA	cliffA	24	118042	English		infrequent
+264	filler	NA	adamA	24	118042	English		infrequent
+265	filler	NA	puzzlesB	19	84185	English		infrequent
+265	filler	NA	gopher	19	84185	English		infrequent
+265	filler	NA	cliffA	19	84185	English		infrequent
+265	filler	NA	mathB	19	84185	English		infrequent
+265	target	flowers	other	19	84185	English		infrequent
+265	target	animal	other	19	84185	English		infrequent
+265	target	trees	other	19	84185	English		infrequent
+265	target	meat	other	19	84185	English		infrequent
+265	filler	NA	adamA	19	84185	English		infrequent
+265	target	scientists	other	19	84185	English		infrequent
+265	target	doctors	other	19	84185	English		infrequent
+266	target	flowers	other	49	135528	english		infrequent
+266	target	trees	other	49	135528	english		infrequent
+266	filler	NA	gopher	49	135528	english		infrequent
+266	filler	NA	adam	49	135528	english		infrequent
+266	target	animal	Ss	49	135528	english		infrequent
+266	target	meat	other	49	135528	english		infrequent
+266	filler	NA	cliff	49	135528	english		infrequent
+266	filler	NA	puzzlesB	49	135528	english		infrequent
+266	target	doctors	other	49	135528	english		infrequent
+266	target	scientists	other	49	135528	english		infrequent
+266	filler	NA	mathA	49	135528	english		infrequent
+267	target	scientists	Ss	32	132960	English		infrequent
+267	target	doctors	Ss	32	132960	English		infrequent
+267	filler	NA	puzzlesB	32	132960	English		infrequent
+267	filler	NA	gopher	32	132960	English		infrequent
+267	filler	NA	adamA	32	132960	English		infrequent
+267	target	trees	other	32	132960	English		infrequent
+267	filler	NA	mathB	32	132960	English		infrequent
+267	filler	NA	cliffA	32	132960	English		infrequent
+267	target	flowers	other	32	132960	English		infrequent
+267	target	meat	other	32	132960	English		infrequent
+267	target	animal	sS	32	132960	English		infrequent
+268	target	scientists	other	24	116120	English		infrequent
+268	filler	NA	cliffA	24	116120	English		infrequent
+268	filler	NA	mathB	24	116120	English		infrequent
+268	filler	NA	puzzlesB	24	116120	English		infrequent
+268	target	doctors	other	24	116120	English		infrequent
+268	filler	NA	gopher	24	116120	English		infrequent
+268	target	trees	other	24	116120	English		infrequent
+268	target	flowers	other	24	116120	English		infrequent
+268	target	animal	other	24	116120	English		infrequent
+268	target	meat	other	24	116120	English		infrequent
+268	filler	NA	adamA	24	116120	English		infrequent
+269	filler	NA	cliffA	22	126873	English		infrequent
+269	target	doctors	Ss	22	126873	English		infrequent
+269	filler	NA	adamA	22	126873	English		infrequent
+269	filler	NA	gopher	22	126873	English		infrequent
+269	target	meat	other	22	126873	English		infrequent
+269	target	scientists	Ss	22	126873	English		infrequent
+269	target	flowers	other	22	126873	English		infrequent
+269	target	trees	other	22	126873	English		infrequent
+269	target	animal	Ss	22	126873	English		infrequent
+269	filler	NA	puzzles	22	126873	English		infrequent
+269	filler	NA	math	22	126873	English		infrequent
+270	filler	NA	mathB	22	101984	English		infrequent
+270	target	trees	other	22	101984	English		infrequent
+270	target	doctors	other	22	101984	English		infrequent
+270	target	scientists	other	22	101984	English		infrequent
+270	target	animal	Ss	22	101984	English		infrequent
+270	filler	NA	cliffA	22	101984	English		infrequent
+270	filler	NA	puzzlesB	22	101984	English		infrequent
+270	filler	NA	adamA	22	101984	English		infrequent
+270	target	flowers	other	22	101984	English		infrequent
+270	filler	NA	gopher	22	101984	English		infrequent
+270	target	meat	sS	22	101984	English		infrequent
+271	filler	NA	puzzlesB	27	151767	English		infrequent
+271	target	doctors	other	27	151767	English		infrequent
+271	target	animal	sS	27	151767	English		infrequent
+271	filler	NA	adam	27	151767	English		infrequent
+271	filler	NA	cliffA	27	151767	English		infrequent
+271	target	trees	other	27	151767	English		infrequent
+271	target	meat	other	27	151767	English		infrequent
+271	target	scientists	other	27	151767	English		infrequent
+271	filler	NA	gopher	27	151767	English		infrequent
+271	target	flowers	other	27	151767	English		infrequent
+271	filler	NA	mathB	27	151767	English		infrequent
+75	target	scientists	Ss	27	139273	English	Thank+you!	infrequent
+75	filler	NA	puzzles	27	139273	English	Thank+you!	infrequent
+75	filler	NA	adamA	27	139273	English	Thank+you!	infrequent
+75	filler	NA	cliffA	27	139273	English	Thank+you!	infrequent
+75	filler	NA	gopher	27	139273	English	Thank+you!	infrequent
+75	target	doctors	Ss	27	139273	English	Thank+you!	infrequent
+75	filler	NA	mathB	27	139273	English	Thank+you!	infrequent
+75	target	trees	Ss	27	139273	English	Thank+you!	infrequent
+75	target	meat	sS	27	139273	English	Thank+you!	infrequent
+75	target	animal	Ss	27	139273	English	Thank+you!	infrequent
+75	target	flowers	other	27	139273	English	Thank+you!	infrequent
+272	filler	NA	puzzlesB	25	140438	English		infrequent
+272	target	scientists	Ss	25	140438	English		infrequent
+272	target	doctors	Ss	25	140438	English		infrequent
+272	target	trees	other	25	140438	English		infrequent
+272	filler	NA	cliffA	25	140438	English		infrequent
+272	filler	NA	adam	25	140438	English		infrequent
+272	target	flowers	other	25	140438	English		infrequent
+272	target	animal	sS	25	140438	English		infrequent
+272	filler	NA	mathB	25	140438	English		infrequent
+272	target	meat	Ss	25	140438	English		infrequent
+272	filler	NA	gopher	25	140438	English		infrequent
+46	target	trees	Ss	26	137761	English		infrequent
+46	target	flowers	other	26	137761	English		infrequent
+46	target	animal	other	26	137761	English		infrequent
+46	filler	NA	puzzlesB	26	137761	English		infrequent
+46	target	scientists	other	26	137761	English		infrequent
+46	target	meat	Ss	26	137761	English		infrequent
+46	filler	NA	cliffA	26	137761	English		infrequent
+46	filler	NA	math	26	137761	English		infrequent
+46	target	doctors	sS	26	137761	English		infrequent
+46	filler	NA	adamA	26	137761	English		infrequent
+46	filler	NA	gopher	26	137761	English		infrequent
+273	target	scientists	Ss	24	114796	English		infrequent
+273	target	flowers	other	24	114796	English		infrequent
+273	filler	NA	mathB	24	114796	English		infrequent
+273	target	trees	other	24	114796	English		infrequent
+273	filler	NA	cliffA	24	114796	English		infrequent
+273	target	animal	sS	24	114796	English		infrequent
+273	filler	NA	adamA	24	114796	English		infrequent
+273	target	doctors	Ss	24	114796	English		infrequent
+273	target	meat	other	24	114796	English		infrequent
+273	filler	NA	gopher	24	114796	English		infrequent
+273	filler	NA	puzzles	24	114796	English		infrequent
+274	target	scientists	Ss	27	120749	English		infrequent
+274	target	meat	other	27	120749	English		infrequent
+274	filler	NA	mathB	27	120749	English		infrequent
+274	filler	NA	cliffA	27	120749	English		infrequent
+274	filler	NA	gopher	27	120749	English		infrequent
+274	filler	NA	puzzlesB	27	120749	English		infrequent
+274	target	trees	other	27	120749	English		infrequent
+274	target	animal	sS	27	120749	English		infrequent
+274	target	doctors	other	27	120749	English		infrequent
+274	filler	NA	adamA	27	120749	English		infrequent
+274	target	flowers	other	27	120749	English		infrequent
+275	filler	NA	adamA	55	148512	American+English		infrequent
+275	filler	NA	gopher	55	148512	American+English		infrequent
+275	filler	NA	puzzlesB	55	148512	American+English		infrequent
+275	filler	NA	cliffA	55	148512	American+English		infrequent
+275	target	animal	sS	55	148512	American+English		infrequent
+275	target	trees	other	55	148512	American+English		infrequent
+275	filler	NA	math	55	148512	American+English		infrequent
+275	target	flowers	other	55	148512	American+English		infrequent
+275	target	scientists	other	55	148512	American+English		infrequent
+275	target	meat	other	55	148512	American+English		infrequent
+275	target	doctors	other	55	148512	American+English		infrequent
+276	filler	NA	adam	27	175218	english	thanks	infrequent
+276	target	scientists	Ss	27	175218	english	thanks	infrequent
+276	filler	NA	puzzles	27	175218	english	thanks	infrequent
+276	target	animal	sS	27	175218	english	thanks	infrequent
+276	target	meat	sS	27	175218	english	thanks	infrequent
+276	target	doctors	sS	27	175218	english	thanks	infrequent
+276	filler	NA	mathB	27	175218	english	thanks	infrequent
+276	target	flowers	sS	27	175218	english	thanks	infrequent
+276	target	trees	other	27	175218	english	thanks	infrequent
+276	filler	NA	cliffA	27	175218	english	thanks	infrequent
+276	filler	NA	gopher	27	175218	english	thanks	infrequent
+277	filler	NA	cliffA	25	118035	English+or+Ojibwe		infrequent
+277	target	trees	other	25	118035	English+or+Ojibwe		infrequent
+277	filler	NA	mathA	25	118035	English+or+Ojibwe		infrequent
+277	target	animal	other	25	118035	English+or+Ojibwe		infrequent
+277	filler	NA	gopher	25	118035	English+or+Ojibwe		infrequent
+277	target	meat	Ss	25	118035	English+or+Ojibwe		infrequent
+277	target	doctors	sS	25	118035	English+or+Ojibwe		infrequent
+277	target	flowers	other	25	118035	English+or+Ojibwe		infrequent
+277	target	scientists	sS	25	118035	English+or+Ojibwe		infrequent
+277	filler	NA	adamA	25	118035	English+or+Ojibwe		infrequent
+277	filler	NA	puzzles	25	118035	English+or+Ojibwe		infrequent
+278	target	scientists	other	38	311200	English		infrequent
+278	target	flowers	other	38	311200	English		infrequent
+278	target	trees	other	38	311200	English		infrequent
+278	target	doctors	other	38	311200	English		infrequent
+278	filler	NA	mathB	38	311200	English		infrequent
+278	filler	NA	cliffA	38	311200	English		infrequent
+278	filler	NA	puzzlesB	38	311200	English		infrequent
+278	filler	NA	adamA	38	311200	English		infrequent
+278	target	animal	sS	38	311200	English		infrequent
+278	filler	NA	gopherA	38	311200	English		infrequent
+278	target	meat	other	38	311200	English		infrequent
+279	filler	NA	puzzlesA	33	164527	english		infrequent
+279	filler	NA	cliffA	33	164527	english		infrequent
+279	target	trees	other	33	164527	english		infrequent
+279	target	doctors	other	33	164527	english		infrequent
+279	filler	NA	gopher	33	164527	english		infrequent
+279	target	scientists	Ss	33	164527	english		infrequent
+279	filler	NA	adamA	33	164527	english		infrequent
+279	target	animal	sS	33	164527	english		infrequent
+279	target	flowers	other	33	164527	english		infrequent
+279	filler	NA	mathB	33	164527	english		infrequent
+279	target	meat	other	33	164527	english		infrequent
+280	filler	NA	cliffA	26	119717	English		infrequent
+280	filler	NA	puzzles	26	119717	English		infrequent
+280	target	flowers	sS	26	119717	English		infrequent
+280	target	scientists	Ss	26	119717	English		infrequent
+280	filler	NA	mathB	26	119717	English		infrequent
+280	target	meat	sS	26	119717	English		infrequent
+280	target	animal	sS	26	119717	English		infrequent
+280	target	trees	Ss	26	119717	English		infrequent
+280	target	doctors	other	26	119717	English		infrequent
+280	filler	NA	adam	26	119717	English		infrequent
+280	filler	NA	gopher	26	119717	English		infrequent
+281	filler	NA	puzzles	28	146411	English		infrequent
+281	filler	NA	cliffA	28	146411	English		infrequent
+281	target	meat	other	28	146411	English		infrequent
+281	target	doctors	Ss	28	146411	English		infrequent
+281	target	trees	other	28	146411	English		infrequent
+281	target	animal	Ss	28	146411	English		infrequent
+281	filler	NA	mathB	28	146411	English		infrequent
+281	target	scientists	other	28	146411	English		infrequent
+281	filler	NA	gopher	28	146411	English		infrequent
+281	target	flowers	other	28	146411	English		infrequent
+281	filler	NA	adamA	28	146411	English		infrequent
+282	filler	NA	cliffA	25	86377	english		infrequent
+282	target	trees	sS	25	86377	english		infrequent
+282	filler	NA	puzzlesB	25	86377	english		infrequent
+282	target	flowers	other	25	86377	english		infrequent
+282	filler	NA	math	25	86377	english		infrequent
+282	target	doctors	Ss	25	86377	english		infrequent
+282	filler	NA	adamA	25	86377	english		infrequent
+282	target	meat	Ss	25	86377	english		infrequent
+282	target	scientists	Ss	25	86377	english		infrequent
+282	target	animal	sS	25	86377	english		infrequent
+282	filler	NA	gopher	25	86377	english		infrequent
+283	target	meat	Ss	29	190947	English	Im+actually+a+curious+what+this+experiment+was+for+Id+love+to+hear+more+about+it	infrequent
+283	target	flowers	sS	29	190947	English	Im+actually+a+curious+what+this+experiment+was+for+Id+love+to+hear+more+about+it	infrequent
+283	filler	NA	cliffA	29	190947	English	Im+actually+a+curious+what+this+experiment+was+for+Id+love+to+hear+more+about+it	infrequent
+283	target	animal	sS	29	190947	English	Im+actually+a+curious+what+this+experiment+was+for+Id+love+to+hear+more+about+it	infrequent
+283	filler	NA	adamA	29	190947	English	Im+actually+a+curious+what+this+experiment+was+for+Id+love+to+hear+more+about+it	infrequent
+283	target	doctors	other	29	190947	English	Im+actually+a+curious+what+this+experiment+was+for+Id+love+to+hear+more+about+it	infrequent
+283	filler	NA	mathB	29	190947	English	Im+actually+a+curious+what+this+experiment+was+for+Id+love+to+hear+more+about+it	infrequent
+283	target	trees	other	29	190947	English	Im+actually+a+curious+what+this+experiment+was+for+Id+love+to+hear+more+about+it	infrequent
+283	target	scientists	other	29	190947	English	Im+actually+a+curious+what+this+experiment+was+for+Id+love+to+hear+more+about+it	infrequent
+283	filler	NA	puzzles	29	190947	English	Im+actually+a+curious+what+this+experiment+was+for+Id+love+to+hear+more+about+it	infrequent
+283	filler	NA	gopher	29	190947	English	Im+actually+a+curious+what+this+experiment+was+for+Id+love+to+hear+more+about+it	infrequent
+284	target	flowers	other	25	147529	english		infrequent
+284	filler	NA	cliffA	25	147529	english		infrequent
+284	target	meat	Ss	25	147529	english		infrequent
+284	filler	NA	adamA	25	147529	english		infrequent
+284	target	animal	Ss	25	147529	english		infrequent
+284	filler	NA	puzzlesB	25	147529	english		infrequent
+284	target	scientists	sS	25	147529	english		infrequent
+284	target	doctors	Ss	25	147529	english		infrequent
+284	filler	NA	math	25	147529	english		infrequent
+284	target	trees	Ss	25	147529	english		infrequent
+284	filler	NA	gopher	25	147529	english		infrequent
+285	filler	NA	puzzlesB	28	133527	English		infrequent
+285	filler	NA	adamA	28	133527	English		infrequent
+285	filler	NA	cliffA	28	133527	English		infrequent
+285	target	trees	sS	28	133527	English		infrequent
+285	target	animal	Ss	28	133527	English		infrequent
+285	filler	NA	mathB	28	133527	English		infrequent
+285	target	flowers	Ss	28	133527	English		infrequent
+285	filler	NA	gopher	28	133527	English		infrequent
+285	target	doctors	Ss	28	133527	English		infrequent
+285	target	scientists	Ss	28	133527	English		infrequent
+285	target	meat	other	28	133527	English		infrequent
+286	filler	NA	cliffA	54	192903	endlish		infrequent
+286	filler	NA	puzzlesB	54	192903	endlish		infrequent
+286	target	meat	other	54	192903	endlish		infrequent
+286	filler	NA	mathB	54	192903	endlish		infrequent
+286	target	flowers	Ss	54	192903	endlish		infrequent
+286	filler	NA	adam	54	192903	endlish		infrequent
+286	target	scientists	Ss	54	192903	endlish		infrequent
+286	filler	NA	gopher	54	192903	endlish		infrequent
+286	target	doctors	other	54	192903	endlish		infrequent
+286	target	trees	sS	54	192903	endlish		infrequent
+286	target	animal	other	54	192903	endlish		infrequent
+287	filler	NA	math	22	142358	English		infrequent
+287	filler	NA	cliffA	22	142358	English		infrequent
+287	target	flowers	other	22	142358	English		infrequent
+287	filler	NA	puzzlesB	22	142358	English		infrequent
+287	target	trees	other	22	142358	English		infrequent
+287	target	meat	other	22	142358	English		infrequent
+287	filler	NA	gopher	22	142358	English		infrequent
+287	target	animal	other	22	142358	English		infrequent
+287	filler	NA	adam	22	142358	English		infrequent
+287	target	scientists	other	22	142358	English		infrequent
+287	target	doctors	other	22	142358	English		infrequent
+288	filler	NA	puzzlesB	29	193208	English		infrequent
+288	target	meat	other	29	193208	English		infrequent
+288	target	animal	sS	29	193208	English		infrequent
+288	filler	NA	math	29	193208	English		infrequent
+288	target	doctors	other	29	193208	English		infrequent
+288	target	trees	other	29	193208	English		infrequent
+288	target	scientists	other	29	193208	English		infrequent
+288	filler	NA	adamA	29	193208	English		infrequent
+288	filler	NA	gopher	29	193208	English		infrequent
+288	target	flowers	other	29	193208	English		infrequent
+288	filler	NA	cliffA	29	193208	English		infrequent
+289	target	meat	sS	25	285576	English	It+was+interesting+but+I+dont+have+anything+special+to+say+about+it	infrequent
+289	target	scientists	other	25	285576	English	It+was+interesting+but+I+dont+have+anything+special+to+say+about+it	infrequent
+289	target	flowers	other	25	285576	English	It+was+interesting+but+I+dont+have+anything+special+to+say+about+it	infrequent
+289	target	doctors	Ss	25	285576	English	It+was+interesting+but+I+dont+have+anything+special+to+say+about+it	infrequent
+289	filler	NA	adamA	25	285576	English	It+was+interesting+but+I+dont+have+anything+special+to+say+about+it	infrequent
+289	target	trees	other	25	285576	English	It+was+interesting+but+I+dont+have+anything+special+to+say+about+it	infrequent
+289	filler	NA	math	25	285576	English	It+was+interesting+but+I+dont+have+anything+special+to+say+about+it	infrequent
+289	filler	NA	puzzlesA	25	285576	English	It+was+interesting+but+I+dont+have+anything+special+to+say+about+it	infrequent
+289	target	animal	sS	25	285576	English	It+was+interesting+but+I+dont+have+anything+special+to+say+about+it	infrequent
+289	filler	NA	cliffA	25	285576	English	It+was+interesting+but+I+dont+have+anything+special+to+say+about+it	infrequent
+289	filler	NA	gopherA	25	285576	English	It+was+interesting+but+I+dont+have+anything+special+to+say+about+it	infrequent
+138	filler	NA	puzzles	26	464864	English		infrequent
+138	target	scientists	Ss	26	464864	English		infrequent
+138	filler	NA	adam	26	464864	English		infrequent
+138	target	trees	other	26	464864	English		infrequent
+138	filler	NA	mathB	26	464864	English		infrequent
+138	target	meat	other	26	464864	English		infrequent
+138	filler	NA	gopher	26	464864	English		infrequent
+138	filler	NA	cliffA	26	464864	English		infrequent
+138	target	flowers	other	26	464864	English		infrequent
+138	target	animal	other	26	464864	English		infrequent
+138	target	doctors	other	26	464864	English		infrequent
+111	target	meat	sS	33	536419	english	none	infrequent
+111	filler	NA	gopher	33	536419	english	none	infrequent
+111	target	trees	other	33	536419	english	none	infrequent
+111	target	flowers	other	33	536419	english	none	infrequent
+111	filler	NA	cliffA	33	536419	english	none	infrequent
+111	filler	NA	adam	33	536419	english	none	infrequent
+111	target	animal	Ss	33	536419	english	none	infrequent
+111	filler	NA	puzzlesB	33	536419	english	none	infrequent
+111	target	scientists	Ss	33	536419	english	none	infrequent
+111	filler	NA	mathB	33	536419	english	none	infrequent
+111	target	doctors	sS	33	536419	english	none	infrequent
+290	target	flowers	Ss	22	117240	english	none	infrequent
+290	filler	NA	adamA	22	117240	english	none	infrequent
+290	target	doctors	Ss	22	117240	english	none	infrequent
+290	target	animal	sS	22	117240	english	none	infrequent
+290	filler	NA	gopher	22	117240	english	none	infrequent
+290	target	trees	Ss	22	117240	english	none	infrequent
+290	filler	NA	math	22	117240	english	none	infrequent
+290	target	meat	other	22	117240	english	none	infrequent
+290	filler	NA	puzzlesB	22	117240	english	none	infrequent
+290	target	scientists	Ss	22	117240	english	none	infrequent
+290	filler	NA	cliffA	22	117240	english	none	infrequent
+100	filler	NA	adamA	28	174970	English	No+additional+comments	infrequent
+100	filler	NA	mathA	28	174970	English	No+additional+comments	infrequent
+100	target	meat	Ss	28	174970	English	No+additional+comments	infrequent
+100	target	doctors	Ss	28	174970	English	No+additional+comments	infrequent
+100	target	trees	sS	28	174970	English	No+additional+comments	infrequent
+100	filler	NA	cliffA	28	174970	English	No+additional+comments	infrequent
+100	target	animal	Ss	28	174970	English	No+additional+comments	infrequent
+100	filler	NA	gopher	28	174970	English	No+additional+comments	infrequent
+100	target	flowers	other	28	174970	English	No+additional+comments	infrequent
+100	filler	NA	puzzlesB	28	174970	English	No+additional+comments	infrequent
+100	target	scientists	other	28	174970	English	No+additional+comments	infrequent
+291	filler	NA	gopher	34	315335	english	none	infrequent
+291	target	doctors	Ss	34	315335	english	none	infrequent
+291	target	flowers	other	34	315335	english	none	infrequent
+291	filler	NA	adam	34	315335	english	none	infrequent
+291	filler	NA	cliffA	34	315335	english	none	infrequent
+291	filler	NA	puzzles	34	315335	english	none	infrequent
+291	target	trees	other	34	315335	english	none	infrequent
+291	filler	NA	math	34	315335	english	none	infrequent
+291	target	scientists	other	34	315335	english	none	infrequent
+291	target	meat	sS	34	315335	english	none	infrequent
+291	target	animal	other	34	315335	english	none	infrequent
+292	filler	NA	puzzlesB	50	164343	english		infrequent
+292	filler	NA	adam	50	164343	english		infrequent
+292	target	trees	other	50	164343	english		infrequent
+292	target	animal	sS	50	164343	english		infrequent
+292	target	scientists	other	50	164343	english		infrequent
+292	target	doctors	other	50	164343	english		infrequent
+292	filler	NA	cliffA	50	164343	english		infrequent
+292	filler	NA	math	50	164343	english		infrequent
+292	target	meat	other	50	164343	english		infrequent
+292	filler	NA	gopher	50	164343	english		infrequent
+292	target	flowers	other	50	164343	english		infrequent
