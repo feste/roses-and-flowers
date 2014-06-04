@@ -1,0 +1,4 @@
+*mturk*.results
+mturk*/*.results
+.RData
+.Rhistory
