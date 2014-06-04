@@ -2,3 +2,4 @@
 mturk*/*.results
 .RData
 .Rhistory
+*WITH-MAPPING*
