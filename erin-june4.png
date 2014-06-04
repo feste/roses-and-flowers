@@ -1,0 +1,17 @@
+library(ggplot2)
+library(grid)
+
+dodge <- position_dodge(width=0.9)
+dat = read.table("all-forced-choice-results-june4.results",header=T,sep="\t")
+dat = dat[!(as.numeric(as.character(dat$subject)) %in% c(73, 76, 75, 46, 138, 111, 100, 33, 143, 34, 103)),]
+targets = dat[dat$trial_type == "target",]
+targets.minus.animal = targets[targets$item != "animal",]
+ggplot(targets, aes(response, fill=response)) +   
+  geom_bar(position = dodge) + facet_wrap(~freq) +
+  theme_bw(18)
+ggplot(targets, aes(response, fill=response)) +   
+  geom_bar(position = dodge) + facet_grid(item ~ freq) +
+  theme_bw(18)
+ggplot(targets.minus.animal, aes(response, fill=response)) +   
+  geom_bar(position = dodge) + facet_wrap(~freq) +
+  theme_bw(18)
