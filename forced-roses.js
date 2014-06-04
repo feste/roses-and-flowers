@@ -37,12 +37,12 @@ var Target = function(subset, superset, beginning, end, article) {
   }
 }
 
-var targets = {"flowers": new Target("roses", "flowers", "This shop sells ", ".")
-  , "scientists": new Target("biologists", "scientists", "The advisory panel included a number of ", ".")
-  , "meat": new Target("beef", "meat", "The recipe called for ", " to be included in the stew.")
-  , "trees": new Target("oaks", "trees", "", " lined the path through the forest.")
-  , "doctors": new Target("surgeons", "doctors", "At the conference there was a special informational session for ", ".")
-  , "animal": new Target("horse", "animal", "Lilly ran ", " rescue operation in the small town.", function(nextWord) {
+var targets = {"flowers": new Target("daffodils", "flowers", "This shop sells ", ".")
+  , "scientists": new Target("paleontologists", "scientists", "The advisory panel included a number of ", ".")
+  , "meat": new Target("veal", "meat", "The recipe called for ", " to be included in the stew.")
+  , "trees": new Target("spruces", "trees", "", " lined the path through the forest.")
+  , "doctors": new Target("anesthesiologists", "doctors", "At the conference there was a special informational session for ", ".")
+  , "animal": new Target("waterfowl", "animal", "Lilly ran ", " rescue operation in the small town.", function(nextWord) {
     if (nextWord == "animal") {
       return "an ";
     } else {
